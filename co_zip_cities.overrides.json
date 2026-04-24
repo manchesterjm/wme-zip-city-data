@@ -38,6 +38,7 @@
     "80534": { "preferred": "JOHNSTOWN",        "recognized": ["LOVELAND"],                   "avoid": [],                                        "state": "CO" },
     "80550": { "preferred": "WINDSOR",          "recognized": ["SEVERANCE"],                  "avoid": [],                                        "state": "CO" },
     "80602": { "preferred": "BRIGHTON",         "recognized": ["THORNTON"],                   "avoid": [],                                        "state": "CO" },
+    "80631": { "preferred": "GREELEY",          "recognized": ["GARDEN CITY"],                "avoid": [],                                        "state": "CO" },
     "80640": { "preferred": "HENDERSON",        "recognized": ["BRIGHTON", "COMMERCE CITY"],  "avoid": [],                                        "state": "CO" },
     "80808": { "preferred": "CALHAN",           "recognized": [],                             "avoid": ["ELLICOTT"],                              "state": "CO" },
     "80829": { "preferred": "MANITOU SPRINGS",  "recognized": ["MANITOU SPGS"],               "avoid": ["CRYSTAL HILLS"],                         "state": "CO" },
