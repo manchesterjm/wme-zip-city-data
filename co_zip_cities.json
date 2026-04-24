@@ -1,0 +1,3580 @@
+{
+  "metadata": {
+    "source": "USPS ZIP_Locale_Detail.xls (Post Office Locale Detail)",
+    "source_file": "C:\\Users\\manch\\Desktop\\WME\\ZIP-City-Data\\ZIP_Locale_Detail.xls",
+    "source_last_modified": "2026-04-24T13:22:23+00:00",
+    "state": "CO",
+    "generated": "2026-04-24T13:42:11+00:00",
+    "zip_count": 589,
+    "ambiguous_count": 32,
+    "schema_note": "Each ZIP maps to {cities: [...], state}. Multi-entry cities = ZIP spans multiple USPS-recognized city names."
+  },
+  "zips": {
+    "80001": {
+      "cities": [
+        "ARVADA"
+      ],
+      "state": "CO"
+    },
+    "80002": {
+      "cities": [
+        "ARVADA"
+      ],
+      "state": "CO"
+    },
+    "80003": {
+      "cities": [
+        "ARVADA"
+      ],
+      "state": "CO"
+    },
+    "80004": {
+      "cities": [
+        "ARVADA"
+      ],
+      "state": "CO"
+    },
+    "80005": {
+      "cities": [
+        "ARVADA"
+      ],
+      "state": "CO"
+    },
+    "80006": {
+      "cities": [
+        "ARVADA"
+      ],
+      "state": "CO"
+    },
+    "80007": {
+      "cities": [
+        "ARVADA"
+      ],
+      "state": "CO"
+    },
+    "80010": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80011": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80012": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80013": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80014": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80015": {
+      "cities": [
+        "CENTENNIAL"
+      ],
+      "state": "CO"
+    },
+    "80016": {
+      "cities": [
+        "CENTENNIAL"
+      ],
+      "state": "CO"
+    },
+    "80017": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80018": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80019": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80020": {
+      "cities": [
+        "BROOMFIELD"
+      ],
+      "state": "CO"
+    },
+    "80021": {
+      "cities": [
+        "BROOMFIELD"
+      ],
+      "state": "CO"
+    },
+    "80022": {
+      "cities": [
+        "COMMERCE CITY"
+      ],
+      "state": "CO"
+    },
+    "80023": {
+      "cities": [
+        "BROOMFIELD"
+      ],
+      "state": "CO"
+    },
+    "80024": {
+      "cities": [
+        "COMMERCE CITY"
+      ],
+      "state": "CO"
+    },
+    "80025": {
+      "cities": [
+        "ELDORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80026": {
+      "cities": [
+        "LAFAYETTE"
+      ],
+      "state": "CO"
+    },
+    "80027": {
+      "cities": [
+        "SUPERIOR"
+      ],
+      "state": "CO"
+    },
+    "80030": {
+      "cities": [
+        "WESTMINSTER"
+      ],
+      "state": "CO"
+    },
+    "80031": {
+      "cities": [
+        "WESTMINSTER"
+      ],
+      "state": "CO"
+    },
+    "80033": {
+      "cities": [
+        "WHEAT RIDGE"
+      ],
+      "state": "CO"
+    },
+    "80034": {
+      "cities": [
+        "WHEAT RIDGE"
+      ],
+      "state": "CO"
+    },
+    "80035": {
+      "cities": [
+        "WESTMINSTER"
+      ],
+      "state": "CO"
+    },
+    "80036": {
+      "cities": [
+        "WESTMINSTER"
+      ],
+      "state": "CO"
+    },
+    "80037": {
+      "cities": [
+        "COMMERCE CITY"
+      ],
+      "state": "CO"
+    },
+    "80038": {
+      "cities": [
+        "BROOMFIELD"
+      ],
+      "state": "CO"
+    },
+    "80040": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80041": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80042": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80044": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80045": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80046": {
+      "cities": [
+        "CENTENNIAL"
+      ],
+      "state": "CO"
+    },
+    "80047": {
+      "cities": [
+        "AURORA"
+      ],
+      "state": "CO"
+    },
+    "80101": {
+      "cities": [
+        "AGATE",
+        "DEER TRAIL"
+      ],
+      "state": "CO"
+    },
+    "80102": {
+      "cities": [
+        "BENNETT"
+      ],
+      "state": "CO"
+    },
+    "80103": {
+      "cities": [
+        "BYERS"
+      ],
+      "state": "CO"
+    },
+    "80104": {
+      "cities": [
+        "CASTLE ROCK"
+      ],
+      "state": "CO"
+    },
+    "80105": {
+      "cities": [
+        "DEER TRAIL"
+      ],
+      "state": "CO"
+    },
+    "80106": {
+      "cities": [
+        "ELBERT"
+      ],
+      "state": "CO"
+    },
+    "80107": {
+      "cities": [
+        "ELIZABETH"
+      ],
+      "state": "CO"
+    },
+    "80108": {
+      "cities": [
+        "CASTLE ROCK"
+      ],
+      "state": "CO"
+    },
+    "80109": {
+      "cities": [
+        "CASTLE ROCK"
+      ],
+      "state": "CO"
+    },
+    "80110": {
+      "cities": [
+        "ENGLEWOOD"
+      ],
+      "state": "CO"
+    },
+    "80111": {
+      "cities": [
+        "GREENWOOD VILLAGE"
+      ],
+      "state": "CO"
+    },
+    "80112": {
+      "cities": [
+        "GREENWOOD VILLAGE"
+      ],
+      "state": "CO"
+    },
+    "80113": {
+      "cities": [
+        "ENGLEWOOD"
+      ],
+      "state": "CO"
+    },
+    "80116": {
+      "cities": [
+        "FRANKTOWN"
+      ],
+      "state": "CO"
+    },
+    "80117": {
+      "cities": [
+        "KIOWA"
+      ],
+      "state": "CO"
+    },
+    "80118": {
+      "cities": [
+        "LARKSPUR"
+      ],
+      "state": "CO"
+    },
+    "80120": {
+      "cities": [
+        "LITTLETON"
+      ],
+      "state": "CO"
+    },
+    "80121": {
+      "cities": [
+        "CENTENNIAL"
+      ],
+      "state": "CO"
+    },
+    "80122": {
+      "cities": [
+        "CENTENNIAL"
+      ],
+      "state": "CO"
+    },
+    "80123": {
+      "cities": [
+        "LITTLETON"
+      ],
+      "state": "CO"
+    },
+    "80124": {
+      "cities": [
+        "HIGHLANDS RANCH"
+      ],
+      "state": "CO"
+    },
+    "80125": {
+      "cities": [
+        "LITTLETON"
+      ],
+      "state": "CO"
+    },
+    "80126": {
+      "cities": [
+        "HIGHLANDS RANCH"
+      ],
+      "state": "CO"
+    },
+    "80127": {
+      "cities": [
+        "LITTLETON"
+      ],
+      "state": "CO"
+    },
+    "80128": {
+      "cities": [
+        "LITTLETON"
+      ],
+      "state": "CO"
+    },
+    "80129": {
+      "cities": [
+        "HIGHLANDS RANCH"
+      ],
+      "state": "CO"
+    },
+    "80130": {
+      "cities": [
+        "HIGHLANDS RANCH"
+      ],
+      "state": "CO"
+    },
+    "80131": {
+      "cities": [
+        "LOUVIERS"
+      ],
+      "state": "CO"
+    },
+    "80132": {
+      "cities": [
+        "MONUMENT"
+      ],
+      "state": "CO"
+    },
+    "80133": {
+      "cities": [
+        "MONUMENT",
+        "PALMER LAKE"
+      ],
+      "state": "CO"
+    },
+    "80134": {
+      "cities": [
+        "PARKER"
+      ],
+      "state": "CO"
+    },
+    "80135": {
+      "cities": [
+        "SEDALIA"
+      ],
+      "state": "CO"
+    },
+    "80136": {
+      "cities": [
+        "BENNETT",
+        "STRASBURG"
+      ],
+      "state": "CO"
+    },
+    "80137": {
+      "cities": [
+        "WATKINS"
+      ],
+      "state": "CO"
+    },
+    "80138": {
+      "cities": [
+        "PARKER"
+      ],
+      "state": "CO"
+    },
+    "80150": {
+      "cities": [
+        "ENGLEWOOD"
+      ],
+      "state": "CO"
+    },
+    "80151": {
+      "cities": [
+        "ENGLEWOOD"
+      ],
+      "state": "CO"
+    },
+    "80155": {
+      "cities": [
+        "GREENWOOD VILLAGE"
+      ],
+      "state": "CO"
+    },
+    "80160": {
+      "cities": [
+        "LITTLETON"
+      ],
+      "state": "CO"
+    },
+    "80161": {
+      "cities": [
+        "CENTENNIAL"
+      ],
+      "state": "CO"
+    },
+    "80162": {
+      "cities": [
+        "LITTLETON"
+      ],
+      "state": "CO"
+    },
+    "80163": {
+      "cities": [
+        "HIGHLANDS RANCH"
+      ],
+      "state": "CO"
+    },
+    "80201": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80202": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80203": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80204": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80205": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80206": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80207": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80209": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80210": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80211": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80212": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80214": {
+      "cities": [
+        "LAKEWOOD"
+      ],
+      "state": "CO"
+    },
+    "80215": {
+      "cities": [
+        "LAKEWOOD"
+      ],
+      "state": "CO"
+    },
+    "80216": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80217": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80218": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80219": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80220": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80221": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80222": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80223": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80224": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80226": {
+      "cities": [
+        "LAKEWOOD"
+      ],
+      "state": "CO"
+    },
+    "80227": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80228": {
+      "cities": [
+        "LAKEWOOD"
+      ],
+      "state": "CO"
+    },
+    "80229": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80230": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80231": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80232": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80233": {
+      "cities": [
+        "NORTHGLENN"
+      ],
+      "state": "CO"
+    },
+    "80234": {
+      "cities": [
+        "NORTHGLENN"
+      ],
+      "state": "CO"
+    },
+    "80235": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80236": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80237": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80238": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80239": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80241": {
+      "cities": [
+        "NORTHGLENN"
+      ],
+      "state": "CO"
+    },
+    "80246": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80247": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80248": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80249": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80250": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80260": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80264": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80265": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80290": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80293": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80294": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80299": {
+      "cities": [
+        "DENVER"
+      ],
+      "state": "CO"
+    },
+    "80301": {
+      "cities": [
+        "BOULDER"
+      ],
+      "state": "CO"
+    },
+    "80302": {
+      "cities": [
+        "BOULDER"
+      ],
+      "state": "CO"
+    },
+    "80303": {
+      "cities": [
+        "BOULDER"
+      ],
+      "state": "CO"
+    },
+    "80304": {
+      "cities": [
+        "BOULDER"
+      ],
+      "state": "CO"
+    },
+    "80305": {
+      "cities": [
+        "BOULDER"
+      ],
+      "state": "CO"
+    },
+    "80306": {
+      "cities": [
+        "BOULDER"
+      ],
+      "state": "CO"
+    },
+    "80307": {
+      "cities": [
+        "BOULDER"
+      ],
+      "state": "CO"
+    },
+    "80308": {
+      "cities": [
+        "BOULDER"
+      ],
+      "state": "CO"
+    },
+    "80401": {
+      "cities": [
+        "GOLDEN"
+      ],
+      "state": "CO"
+    },
+    "80402": {
+      "cities": [
+        "GOLDEN"
+      ],
+      "state": "CO"
+    },
+    "80403": {
+      "cities": [
+        "GOLDEN"
+      ],
+      "state": "CO"
+    },
+    "80420": {
+      "cities": [
+        "ALMA"
+      ],
+      "state": "CO"
+    },
+    "80421": {
+      "cities": [
+        "BAILEY"
+      ],
+      "state": "CO"
+    },
+    "80422": {
+      "cities": [
+        "BLACK HAWK"
+      ],
+      "state": "CO"
+    },
+    "80423": {
+      "cities": [
+        "MC COY"
+      ],
+      "state": "CO"
+    },
+    "80424": {
+      "cities": [
+        "BRECKENRIDGE"
+      ],
+      "state": "CO"
+    },
+    "80425": {
+      "cities": [
+        "BUFFALO CREEK"
+      ],
+      "state": "CO"
+    },
+    "80426": {
+      "cities": [
+        "BURNS"
+      ],
+      "state": "CO"
+    },
+    "80427": {
+      "cities": [
+        "CENTRAL CITY"
+      ],
+      "state": "CO"
+    },
+    "80428": {
+      "cities": [
+        "CLARK"
+      ],
+      "state": "CO"
+    },
+    "80430": {
+      "cities": [
+        "WALDEN"
+      ],
+      "state": "CO"
+    },
+    "80432": {
+      "cities": [
+        "COMO"
+      ],
+      "state": "CO"
+    },
+    "80433": {
+      "cities": [
+        "CONIFER"
+      ],
+      "state": "CO"
+    },
+    "80434": {
+      "cities": [
+        "COWDREY"
+      ],
+      "state": "CO"
+    },
+    "80435": {
+      "cities": [
+        "DILLON"
+      ],
+      "state": "CO"
+    },
+    "80436": {
+      "cities": [
+        "DUMONT"
+      ],
+      "state": "CO"
+    },
+    "80437": {
+      "cities": [
+        "EVERGREEN"
+      ],
+      "state": "CO"
+    },
+    "80438": {
+      "cities": [
+        "EMPIRE"
+      ],
+      "state": "CO"
+    },
+    "80439": {
+      "cities": [
+        "GOLDEN"
+      ],
+      "state": "CO"
+    },
+    "80440": {
+      "cities": [
+        "FAIRPLAY"
+      ],
+      "state": "CO"
+    },
+    "80442": {
+      "cities": [
+        "FRASER"
+      ],
+      "state": "CO"
+    },
+    "80443": {
+      "cities": [
+        "FRISCO"
+      ],
+      "state": "CO"
+    },
+    "80444": {
+      "cities": [
+        "GEORGETOWN"
+      ],
+      "state": "CO"
+    },
+    "80446": {
+      "cities": [
+        "GRANBY"
+      ],
+      "state": "CO"
+    },
+    "80447": {
+      "cities": [
+        "GRAND LAKE"
+      ],
+      "state": "CO"
+    },
+    "80448": {
+      "cities": [
+        "SHAWNEE"
+      ],
+      "state": "CO"
+    },
+    "80449": {
+      "cities": [
+        "HARTSEL"
+      ],
+      "state": "CO"
+    },
+    "80451": {
+      "cities": [
+        "HOT SULPHUR SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80452": {
+      "cities": [
+        "IDAHO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80453": {
+      "cities": [
+        "IDLEDALE"
+      ],
+      "state": "CO"
+    },
+    "80454": {
+      "cities": [
+        "INDIAN HILLS"
+      ],
+      "state": "CO"
+    },
+    "80455": {
+      "cities": [
+        "JAMESTOWN"
+      ],
+      "state": "CO"
+    },
+    "80456": {
+      "cities": [
+        "FAIRPLAY"
+      ],
+      "state": "CO"
+    },
+    "80457": {
+      "cities": [
+        "KITTREDGE"
+      ],
+      "state": "CO"
+    },
+    "80459": {
+      "cities": [
+        "KREMMLING"
+      ],
+      "state": "CO"
+    },
+    "80461": {
+      "cities": [
+        "LEADVILLE"
+      ],
+      "state": "CO"
+    },
+    "80463": {
+      "cities": [
+        "MC COY"
+      ],
+      "state": "CO"
+    },
+    "80465": {
+      "cities": [
+        "GOLDEN",
+        "MORRISON"
+      ],
+      "state": "CO"
+    },
+    "80466": {
+      "cities": [
+        "NEDERLAND"
+      ],
+      "state": "CO"
+    },
+    "80467": {
+      "cities": [
+        "OAK CREEK"
+      ],
+      "state": "CO"
+    },
+    "80468": {
+      "cities": [
+        "KREMMLING"
+      ],
+      "state": "CO"
+    },
+    "80469": {
+      "cities": [
+        "OAK CREEK"
+      ],
+      "state": "CO"
+    },
+    "80470": {
+      "cities": [
+        "PINE"
+      ],
+      "state": "CO"
+    },
+    "80471": {
+      "cities": [
+        "PINECLIFFE"
+      ],
+      "state": "CO"
+    },
+    "80473": {
+      "cities": [
+        "RAND"
+      ],
+      "state": "CO"
+    },
+    "80474": {
+      "cities": [
+        "ROLLINSVILLE"
+      ],
+      "state": "CO"
+    },
+    "80475": {
+      "cities": [
+        "SHAWNEE"
+      ],
+      "state": "CO"
+    },
+    "80476": {
+      "cities": [
+        "SILVER PLUME"
+      ],
+      "state": "CO"
+    },
+    "80477": {
+      "cities": [
+        "STEAMBOAT SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80478": {
+      "cities": [
+        "TABERNASH"
+      ],
+      "state": "CO"
+    },
+    "80479": {
+      "cities": [
+        "TOPONAS"
+      ],
+      "state": "CO"
+    },
+    "80480": {
+      "cities": [
+        "WALDEN"
+      ],
+      "state": "CO"
+    },
+    "80481": {
+      "cities": [
+        "JAMESTOWN",
+        "WARD"
+      ],
+      "state": "CO"
+    },
+    "80482": {
+      "cities": [
+        "WINTER PARK"
+      ],
+      "state": "CO"
+    },
+    "80483": {
+      "cities": [
+        "YAMPA"
+      ],
+      "state": "CO"
+    },
+    "80487": {
+      "cities": [
+        "STEAMBOAT SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80488": {
+      "cities": [
+        "STEAMBOAT SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80497": {
+      "cities": [
+        "SILVERTHORNE"
+      ],
+      "state": "CO"
+    },
+    "80498": {
+      "cities": [
+        "DILLON",
+        "SILVERTHORNE"
+      ],
+      "state": "CO"
+    },
+    "80501": {
+      "cities": [
+        "LONGMONT"
+      ],
+      "state": "CO"
+    },
+    "80502": {
+      "cities": [
+        "LONGMONT"
+      ],
+      "state": "CO"
+    },
+    "80503": {
+      "cities": [
+        "LONGMONT"
+      ],
+      "state": "CO"
+    },
+    "80504": {
+      "cities": [
+        "LONGMONT"
+      ],
+      "state": "CO"
+    },
+    "80510": {
+      "cities": [
+        "ALLENSPARK"
+      ],
+      "state": "CO"
+    },
+    "80511": {
+      "cities": [
+        "ESTES PARK"
+      ],
+      "state": "CO"
+    },
+    "80512": {
+      "cities": [
+        "BELLVUE"
+      ],
+      "state": "CO"
+    },
+    "80513": {
+      "cities": [
+        "BERTHOUD"
+      ],
+      "state": "CO"
+    },
+    "80514": {
+      "cities": [
+        "DACONO"
+      ],
+      "state": "CO"
+    },
+    "80515": {
+      "cities": [
+        "DRAKE"
+      ],
+      "state": "CO"
+    },
+    "80516": {
+      "cities": [
+        "ERIE"
+      ],
+      "state": "CO"
+    },
+    "80517": {
+      "cities": [
+        "ESTES PARK"
+      ],
+      "state": "CO"
+    },
+    "80520": {
+      "cities": [
+        "FIRESTONE"
+      ],
+      "state": "CO"
+    },
+    "80521": {
+      "cities": [
+        "FORT COLLINS"
+      ],
+      "state": "CO"
+    },
+    "80522": {
+      "cities": [
+        "FORT COLLINS"
+      ],
+      "state": "CO"
+    },
+    "80524": {
+      "cities": [
+        "FORT COLLINS"
+      ],
+      "state": "CO"
+    },
+    "80525": {
+      "cities": [
+        "FORT COLLINS"
+      ],
+      "state": "CO"
+    },
+    "80526": {
+      "cities": [
+        "FORT COLLINS"
+      ],
+      "state": "CO"
+    },
+    "80527": {
+      "cities": [
+        "FORT COLLINS"
+      ],
+      "state": "CO"
+    },
+    "80528": {
+      "cities": [
+        "FORT COLLINS"
+      ],
+      "state": "CO"
+    },
+    "80530": {
+      "cities": [
+        "FREDERICK"
+      ],
+      "state": "CO"
+    },
+    "80532": {
+      "cities": [
+        "GLEN HAVEN"
+      ],
+      "state": "CO"
+    },
+    "80533": {
+      "cities": [
+        "HYGIENE"
+      ],
+      "state": "CO"
+    },
+    "80534": {
+      "cities": [
+        "JOHNSTOWN"
+      ],
+      "state": "CO"
+    },
+    "80535": {
+      "cities": [
+        "LAPORTE"
+      ],
+      "state": "CO"
+    },
+    "80536": {
+      "cities": [
+        "LIVERMORE"
+      ],
+      "state": "CO"
+    },
+    "80537": {
+      "cities": [
+        "LOVELAND"
+      ],
+      "state": "CO"
+    },
+    "80538": {
+      "cities": [
+        "LOVELAND"
+      ],
+      "state": "CO"
+    },
+    "80539": {
+      "cities": [
+        "LOVELAND"
+      ],
+      "state": "CO"
+    },
+    "80540": {
+      "cities": [
+        "LYONS"
+      ],
+      "state": "CO"
+    },
+    "80541": {
+      "cities": [
+        "MASONVILLE"
+      ],
+      "state": "CO"
+    },
+    "80542": {
+      "cities": [
+        "MEAD"
+      ],
+      "state": "CO"
+    },
+    "80543": {
+      "cities": [
+        "JOHNSTOWN",
+        "MILLIKEN"
+      ],
+      "state": "CO"
+    },
+    "80544": {
+      "cities": [
+        "NIWOT"
+      ],
+      "state": "CO"
+    },
+    "80545": {
+      "cities": [
+        "RED FEATHER LAKES"
+      ],
+      "state": "CO"
+    },
+    "80546": {
+      "cities": [
+        "SEVERANCE"
+      ],
+      "state": "CO"
+    },
+    "80547": {
+      "cities": [
+        "FORT COLLINS",
+        "TIMNATH"
+      ],
+      "state": "CO"
+    },
+    "80549": {
+      "cities": [
+        "WELLINGTON"
+      ],
+      "state": "CO"
+    },
+    "80550": {
+      "cities": [
+        "WINDSOR"
+      ],
+      "state": "CO"
+    },
+    "80601": {
+      "cities": [
+        "BRIGHTON"
+      ],
+      "state": "CO"
+    },
+    "80602": {
+      "cities": [
+        "BRIGHTON"
+      ],
+      "state": "CO"
+    },
+    "80603": {
+      "cities": [
+        "BRIGHTON"
+      ],
+      "state": "CO"
+    },
+    "80610": {
+      "cities": [
+        "AULT"
+      ],
+      "state": "CO"
+    },
+    "80611": {
+      "cities": [
+        "BRIGGSDALE"
+      ],
+      "state": "CO"
+    },
+    "80612": {
+      "cities": [
+        "CARR"
+      ],
+      "state": "CO"
+    },
+    "80614": {
+      "cities": [
+        "EASTLAKE"
+      ],
+      "state": "CO"
+    },
+    "80615": {
+      "cities": [
+        "EATON"
+      ],
+      "state": "CO"
+    },
+    "80620": {
+      "cities": [
+        "EVANS"
+      ],
+      "state": "CO"
+    },
+    "80621": {
+      "cities": [
+        "FORT LUPTON"
+      ],
+      "state": "CO"
+    },
+    "80622": {
+      "cities": [
+        "GALETON"
+      ],
+      "state": "CO"
+    },
+    "80623": {
+      "cities": [
+        "GILCREST"
+      ],
+      "state": "CO"
+    },
+    "80624": {
+      "cities": [
+        "GILL"
+      ],
+      "state": "CO"
+    },
+    "80631": {
+      "cities": [
+        "GREELEY"
+      ],
+      "state": "CO"
+    },
+    "80632": {
+      "cities": [
+        "GREELEY"
+      ],
+      "state": "CO"
+    },
+    "80633": {
+      "cities": [
+        "GREELEY"
+      ],
+      "state": "CO"
+    },
+    "80634": {
+      "cities": [
+        "GREELEY"
+      ],
+      "state": "CO"
+    },
+    "80640": {
+      "cities": [
+        "HENDERSON"
+      ],
+      "state": "CO"
+    },
+    "80642": {
+      "cities": [
+        "HUDSON"
+      ],
+      "state": "CO"
+    },
+    "80643": {
+      "cities": [
+        "KEENESBURG"
+      ],
+      "state": "CO"
+    },
+    "80644": {
+      "cities": [
+        "KERSEY"
+      ],
+      "state": "CO"
+    },
+    "80645": {
+      "cities": [
+        "EVANS",
+        "LA SALLE"
+      ],
+      "state": "CO"
+    },
+    "80646": {
+      "cities": [
+        "LUCERNE"
+      ],
+      "state": "CO"
+    },
+    "80648": {
+      "cities": [
+        "NUNN",
+        "PIERCE"
+      ],
+      "state": "CO"
+    },
+    "80649": {
+      "cities": [
+        "ORCHARD"
+      ],
+      "state": "CO"
+    },
+    "80650": {
+      "cities": [
+        "PIERCE"
+      ],
+      "state": "CO"
+    },
+    "80651": {
+      "cities": [
+        "PLATTEVILLE"
+      ],
+      "state": "CO"
+    },
+    "80652": {
+      "cities": [
+        "ROGGEN"
+      ],
+      "state": "CO"
+    },
+    "80653": {
+      "cities": [
+        "WELDONA"
+      ],
+      "state": "CO"
+    },
+    "80654": {
+      "cities": [
+        "WIGGINS"
+      ],
+      "state": "CO"
+    },
+    "80701": {
+      "cities": [
+        "FORT MORGAN"
+      ],
+      "state": "CO"
+    },
+    "80705": {
+      "cities": [
+        "FORT MORGAN"
+      ],
+      "state": "CO"
+    },
+    "80720": {
+      "cities": [
+        "AKRON"
+      ],
+      "state": "CO"
+    },
+    "80721": {
+      "cities": [
+        "AMHERST",
+        "HOLYOKE"
+      ],
+      "state": "CO"
+    },
+    "80722": {
+      "cities": [
+        "ATWOOD"
+      ],
+      "state": "CO"
+    },
+    "80723": {
+      "cities": [
+        "BRUSH"
+      ],
+      "state": "CO"
+    },
+    "80726": {
+      "cities": [
+        "CROOK"
+      ],
+      "state": "CO"
+    },
+    "80727": {
+      "cities": [
+        "ECKLEY"
+      ],
+      "state": "CO"
+    },
+    "80728": {
+      "cities": [
+        "FLEMING"
+      ],
+      "state": "CO"
+    },
+    "80729": {
+      "cities": [
+        "GROVER"
+      ],
+      "state": "CO"
+    },
+    "80731": {
+      "cities": [
+        "HAXTUN"
+      ],
+      "state": "CO"
+    },
+    "80732": {
+      "cities": [
+        "HEREFORD"
+      ],
+      "state": "CO"
+    },
+    "80733": {
+      "cities": [
+        "HILLROSE"
+      ],
+      "state": "CO"
+    },
+    "80734": {
+      "cities": [
+        "HOLYOKE"
+      ],
+      "state": "CO"
+    },
+    "80735": {
+      "cities": [
+        "IDALIA"
+      ],
+      "state": "CO"
+    },
+    "80736": {
+      "cities": [
+        "ILIFF"
+      ],
+      "state": "CO"
+    },
+    "80737": {
+      "cities": [
+        "JULESBURG"
+      ],
+      "state": "CO"
+    },
+    "80740": {
+      "cities": [
+        "ANTON"
+      ],
+      "state": "CO"
+    },
+    "80741": {
+      "cities": [
+        "MERINO"
+      ],
+      "state": "CO"
+    },
+    "80742": {
+      "cities": [
+        "NEW RAYMER"
+      ],
+      "state": "CO"
+    },
+    "80743": {
+      "cities": [
+        "OTIS"
+      ],
+      "state": "CO"
+    },
+    "80744": {
+      "cities": [
+        "JULESBURG",
+        "OVID"
+      ],
+      "state": "CO"
+    },
+    "80745": {
+      "cities": [
+        "PEETZ"
+      ],
+      "state": "CO"
+    },
+    "80746": {
+      "cities": [
+        "HAXTUN"
+      ],
+      "state": "CO"
+    },
+    "80747": {
+      "cities": [
+        "PEETZ"
+      ],
+      "state": "CO"
+    },
+    "80749": {
+      "cities": [
+        "SEDGWICK"
+      ],
+      "state": "CO"
+    },
+    "80750": {
+      "cities": [
+        "SNYDER"
+      ],
+      "state": "CO"
+    },
+    "80751": {
+      "cities": [
+        "STERLING"
+      ],
+      "state": "CO"
+    },
+    "80754": {
+      "cities": [
+        "STONEHAM"
+      ],
+      "state": "CO"
+    },
+    "80755": {
+      "cities": [
+        "VERNON"
+      ],
+      "state": "CO"
+    },
+    "80757": {
+      "cities": [
+        "WOODROW"
+      ],
+      "state": "CO"
+    },
+    "80758": {
+      "cities": [
+        "WRAY"
+      ],
+      "state": "CO"
+    },
+    "80759": {
+      "cities": [
+        "YUMA"
+      ],
+      "state": "CO"
+    },
+    "80801": {
+      "cities": [
+        "ANTON"
+      ],
+      "state": "CO"
+    },
+    "80802": {
+      "cities": [
+        "ARAPAHOE"
+      ],
+      "state": "CO"
+    },
+    "80804": {
+      "cities": [
+        "ARRIBA"
+      ],
+      "state": "CO"
+    },
+    "80805": {
+      "cities": [
+        "BETHUNE"
+      ],
+      "state": "CO"
+    },
+    "80807": {
+      "cities": [
+        "BURLINGTON"
+      ],
+      "state": "CO"
+    },
+    "80808": {
+      "cities": [
+        "CALHAN"
+      ],
+      "state": "CO"
+    },
+    "80809": {
+      "cities": [
+        "CASCADE"
+      ],
+      "state": "CO"
+    },
+    "80810": {
+      "cities": [
+        "CHEYENNE WELLS"
+      ],
+      "state": "CO"
+    },
+    "80812": {
+      "cities": [
+        "COPE"
+      ],
+      "state": "CO"
+    },
+    "80813": {
+      "cities": [
+        "CRIPPLE CREEK"
+      ],
+      "state": "CO"
+    },
+    "80814": {
+      "cities": [
+        "DIVIDE"
+      ],
+      "state": "CO"
+    },
+    "80815": {
+      "cities": [
+        "FLAGLER"
+      ],
+      "state": "CO"
+    },
+    "80816": {
+      "cities": [
+        "FLORISSANT"
+      ],
+      "state": "CO"
+    },
+    "80817": {
+      "cities": [
+        "FOUNTAIN"
+      ],
+      "state": "CO"
+    },
+    "80818": {
+      "cities": [
+        "GENOA"
+      ],
+      "state": "CO"
+    },
+    "80819": {
+      "cities": [
+        "GREEN MOUNTAIN FALLS"
+      ],
+      "state": "CO"
+    },
+    "80820": {
+      "cities": [
+        "GUFFEY"
+      ],
+      "state": "CO"
+    },
+    "80821": {
+      "cities": [
+        "HUGO"
+      ],
+      "state": "CO"
+    },
+    "80822": {
+      "cities": [
+        "JOES"
+      ],
+      "state": "CO"
+    },
+    "80823": {
+      "cities": [
+        "KARVAL"
+      ],
+      "state": "CO"
+    },
+    "80824": {
+      "cities": [
+        "KIRK"
+      ],
+      "state": "CO"
+    },
+    "80825": {
+      "cities": [
+        "KIT CARSON"
+      ],
+      "state": "CO"
+    },
+    "80827": {
+      "cities": [
+        "LAKE GEORGE"
+      ],
+      "state": "CO"
+    },
+    "80828": {
+      "cities": [
+        "LIMON"
+      ],
+      "state": "CO"
+    },
+    "80829": {
+      "cities": [
+        "MANITOU SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80830": {
+      "cities": [
+        "MATHESON"
+      ],
+      "state": "CO"
+    },
+    "80831": {
+      "cities": [
+        "PEYTON"
+      ],
+      "state": "CO"
+    },
+    "80832": {
+      "cities": [
+        "RAMAH",
+        "SIMLA"
+      ],
+      "state": "CO"
+    },
+    "80833": {
+      "cities": [
+        "RUSH",
+        "YODER"
+      ],
+      "state": "CO"
+    },
+    "80834": {
+      "cities": [
+        "SEIBERT"
+      ],
+      "state": "CO"
+    },
+    "80835": {
+      "cities": [
+        "SIMLA"
+      ],
+      "state": "CO"
+    },
+    "80836": {
+      "cities": [
+        "STRATTON"
+      ],
+      "state": "CO"
+    },
+    "80840": {
+      "cities": [
+        "USAF ACADEMY"
+      ],
+      "state": "CO"
+    },
+    "80841": {
+      "cities": [
+        "USAF ACADEMY"
+      ],
+      "state": "CO"
+    },
+    "80860": {
+      "cities": [
+        "VICTOR"
+      ],
+      "state": "CO"
+    },
+    "80861": {
+      "cities": [
+        "STRATTON",
+        "VONA"
+      ],
+      "state": "CO"
+    },
+    "80862": {
+      "cities": [
+        "WILD HORSE"
+      ],
+      "state": "CO"
+    },
+    "80863": {
+      "cities": [
+        "WOODLAND PARK"
+      ],
+      "state": "CO"
+    },
+    "80864": {
+      "cities": [
+        "YODER"
+      ],
+      "state": "CO"
+    },
+    "80866": {
+      "cities": [
+        "WOODLAND PARK"
+      ],
+      "state": "CO"
+    },
+    "80901": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80902": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80903": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80904": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80905": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80906": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80907": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80908": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80909": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80910": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80911": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80914": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80915": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80916": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80917": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80918": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80919": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80920": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80921": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80922": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80923": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80924": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80925": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80926": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80927": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80928": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80929": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80930": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80931": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80932": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80933": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80934": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80935": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80936": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80937": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80938": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80939": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80949": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80951": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80960": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80962": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "80970": {
+      "cities": [
+        "COLORADO SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "81001": {
+      "cities": [
+        "PUEBLO"
+      ],
+      "state": "CO"
+    },
+    "81002": {
+      "cities": [
+        "PUEBLO"
+      ],
+      "state": "CO"
+    },
+    "81003": {
+      "cities": [
+        "PUEBLO"
+      ],
+      "state": "CO"
+    },
+    "81004": {
+      "cities": [
+        "PUEBLO"
+      ],
+      "state": "CO"
+    },
+    "81005": {
+      "cities": [
+        "PUEBLO"
+      ],
+      "state": "CO"
+    },
+    "81006": {
+      "cities": [
+        "PUEBLO"
+      ],
+      "state": "CO"
+    },
+    "81007": {
+      "cities": [
+        "PUEBLO"
+      ],
+      "state": "CO"
+    },
+    "81008": {
+      "cities": [
+        "PUEBLO"
+      ],
+      "state": "CO"
+    },
+    "81019": {
+      "cities": [
+        "COLORADO CITY"
+      ],
+      "state": "CO"
+    },
+    "81020": {
+      "cities": [
+        "AGUILAR"
+      ],
+      "state": "CO"
+    },
+    "81021": {
+      "cities": [
+        "HASWELL"
+      ],
+      "state": "CO"
+    },
+    "81022": {
+      "cities": [
+        "AVONDALE"
+      ],
+      "state": "CO"
+    },
+    "81023": {
+      "cities": [
+        "BEULAH"
+      ],
+      "state": "CO"
+    },
+    "81024": {
+      "cities": [
+        "TRINIDAD"
+      ],
+      "state": "CO"
+    },
+    "81025": {
+      "cities": [
+        "BOONE"
+      ],
+      "state": "CO"
+    },
+    "81027": {
+      "cities": [
+        "BRANSON"
+      ],
+      "state": "CO"
+    },
+    "81029": {
+      "cities": [
+        "CAMPO"
+      ],
+      "state": "CO"
+    },
+    "81030": {
+      "cities": [
+        "CHERAW"
+      ],
+      "state": "CO"
+    },
+    "81033": {
+      "cities": [
+        "CROWLEY"
+      ],
+      "state": "CO"
+    },
+    "81036": {
+      "cities": [
+        "EADS"
+      ],
+      "state": "CO"
+    },
+    "81039": {
+      "cities": [
+        "FOWLER"
+      ],
+      "state": "CO"
+    },
+    "81040": {
+      "cities": [
+        "GARDNER"
+      ],
+      "state": "CO"
+    },
+    "81041": {
+      "cities": [
+        "GRANADA"
+      ],
+      "state": "CO"
+    },
+    "81043": {
+      "cities": [
+        "HARTMAN"
+      ],
+      "state": "CO"
+    },
+    "81044": {
+      "cities": [
+        "HASTY"
+      ],
+      "state": "CO"
+    },
+    "81045": {
+      "cities": [
+        "HASWELL"
+      ],
+      "state": "CO"
+    },
+    "81046": {
+      "cities": [
+        "HOEHNE"
+      ],
+      "state": "CO"
+    },
+    "81047": {
+      "cities": [
+        "HOLLY"
+      ],
+      "state": "CO"
+    },
+    "81049": {
+      "cities": [
+        "KIM"
+      ],
+      "state": "CO"
+    },
+    "81050": {
+      "cities": [
+        "LA JUNTA"
+      ],
+      "state": "CO"
+    },
+    "81052": {
+      "cities": [
+        "LAMAR"
+      ],
+      "state": "CO"
+    },
+    "81054": {
+      "cities": [
+        "LAS ANIMAS"
+      ],
+      "state": "CO"
+    },
+    "81055": {
+      "cities": [
+        "LA VETA"
+      ],
+      "state": "CO"
+    },
+    "81057": {
+      "cities": [
+        "MC CLAVE"
+      ],
+      "state": "CO"
+    },
+    "81058": {
+      "cities": [
+        "MANZANOLA"
+      ],
+      "state": "CO"
+    },
+    "81059": {
+      "cities": [
+        "TRINIDAD"
+      ],
+      "state": "CO"
+    },
+    "81062": {
+      "cities": [
+        "FOWLER",
+        "OLNEY SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "81063": {
+      "cities": [
+        "ORDWAY"
+      ],
+      "state": "CO"
+    },
+    "81064": {
+      "cities": [
+        "PRITCHETT"
+      ],
+      "state": "CO"
+    },
+    "81067": {
+      "cities": [
+        "ROCKY FORD"
+      ],
+      "state": "CO"
+    },
+    "81069": {
+      "cities": [
+        "RYE"
+      ],
+      "state": "CO"
+    },
+    "81071": {
+      "cities": [
+        "SHERIDAN LAKE"
+      ],
+      "state": "CO"
+    },
+    "81073": {
+      "cities": [
+        "SPRINGFIELD"
+      ],
+      "state": "CO"
+    },
+    "81076": {
+      "cities": [
+        "SUGAR CITY"
+      ],
+      "state": "CO"
+    },
+    "81077": {
+      "cities": [
+        "SWINK"
+      ],
+      "state": "CO"
+    },
+    "81081": {
+      "cities": [
+        "TRINIDAD"
+      ],
+      "state": "CO"
+    },
+    "81082": {
+      "cities": [
+        "TRINIDAD"
+      ],
+      "state": "CO"
+    },
+    "81084": {
+      "cities": [
+        "TWO BUTTES"
+      ],
+      "state": "CO"
+    },
+    "81087": {
+      "cities": [
+        "VILAS"
+      ],
+      "state": "CO"
+    },
+    "81089": {
+      "cities": [
+        "WALSENBURG"
+      ],
+      "state": "CO"
+    },
+    "81090": {
+      "cities": [
+        "WALSH"
+      ],
+      "state": "CO"
+    },
+    "81091": {
+      "cities": [
+        "TRINIDAD",
+        "WESTON"
+      ],
+      "state": "CO"
+    },
+    "81092": {
+      "cities": [
+        "WILEY"
+      ],
+      "state": "CO"
+    },
+    "81101": {
+      "cities": [
+        "ALAMOSA"
+      ],
+      "state": "CO"
+    },
+    "81120": {
+      "cities": [
+        "ANTONITO"
+      ],
+      "state": "CO"
+    },
+    "81121": {
+      "cities": [
+        "ARBOLES"
+      ],
+      "state": "CO"
+    },
+    "81122": {
+      "cities": [
+        "BAYFIELD"
+      ],
+      "state": "CO"
+    },
+    "81123": {
+      "cities": [
+        "BLANCA"
+      ],
+      "state": "CO"
+    },
+    "81124": {
+      "cities": [
+        "CAPULIN"
+      ],
+      "state": "CO"
+    },
+    "81125": {
+      "cities": [
+        "CENTER"
+      ],
+      "state": "CO"
+    },
+    "81128": {
+      "cities": [
+        "PAGOSA SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "81129": {
+      "cities": [
+        "CONEJOS"
+      ],
+      "state": "CO"
+    },
+    "81130": {
+      "cities": [
+        "CREEDE"
+      ],
+      "state": "CO"
+    },
+    "81131": {
+      "cities": [
+        "CRESTONE"
+      ],
+      "state": "CO"
+    },
+    "81132": {
+      "cities": [
+        "DEL NORTE"
+      ],
+      "state": "CO"
+    },
+    "81133": {
+      "cities": [
+        "FORT GARLAND"
+      ],
+      "state": "CO"
+    },
+    "81135": {
+      "cities": [
+        "MONTE VISTA"
+      ],
+      "state": "CO"
+    },
+    "81136": {
+      "cities": [
+        "CENTER",
+        "HOOPER"
+      ],
+      "state": "CO"
+    },
+    "81137": {
+      "cities": [
+        "IGNACIO"
+      ],
+      "state": "CO"
+    },
+    "81138": {
+      "cities": [
+        "JAROSO"
+      ],
+      "state": "CO"
+    },
+    "81140": {
+      "cities": [
+        "LA JARA"
+      ],
+      "state": "CO"
+    },
+    "81141": {
+      "cities": [
+        "MANASSA"
+      ],
+      "state": "CO"
+    },
+    "81143": {
+      "cities": [
+        "MOFFAT"
+      ],
+      "state": "CO"
+    },
+    "81144": {
+      "cities": [
+        "MONTE VISTA"
+      ],
+      "state": "CO"
+    },
+    "81146": {
+      "cities": [
+        "MOSCA"
+      ],
+      "state": "CO"
+    },
+    "81147": {
+      "cities": [
+        "PAGOSA SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "81148": {
+      "cities": [
+        "ROMEO"
+      ],
+      "state": "CO"
+    },
+    "81149": {
+      "cities": [
+        "SAGUACHE"
+      ],
+      "state": "CO"
+    },
+    "81151": {
+      "cities": [
+        "SANFORD"
+      ],
+      "state": "CO"
+    },
+    "81152": {
+      "cities": [
+        "SAN LUIS"
+      ],
+      "state": "CO"
+    },
+    "81154": {
+      "cities": [
+        "SOUTH FORK"
+      ],
+      "state": "CO"
+    },
+    "81155": {
+      "cities": [
+        "VILLA GROVE"
+      ],
+      "state": "CO"
+    },
+    "81157": {
+      "cities": [
+        "PAGOSA SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "81201": {
+      "cities": [
+        "SALIDA"
+      ],
+      "state": "CO"
+    },
+    "81210": {
+      "cities": [
+        "ALMONT"
+      ],
+      "state": "CO"
+    },
+    "81211": {
+      "cities": [
+        "BUENA VISTA"
+      ],
+      "state": "CO"
+    },
+    "81212": {
+      "cities": [
+        "CANON CITY"
+      ],
+      "state": "CO"
+    },
+    "81215": {
+      "cities": [
+        "CANON CITY"
+      ],
+      "state": "CO"
+    },
+    "81220": {
+      "cities": [
+        "CIMARRON"
+      ],
+      "state": "CO"
+    },
+    "81221": {
+      "cities": [
+        "COAL CREEK"
+      ],
+      "state": "CO"
+    },
+    "81222": {
+      "cities": [
+        "COALDALE"
+      ],
+      "state": "CO"
+    },
+    "81223": {
+      "cities": [
+        "COTOPAXI"
+      ],
+      "state": "CO"
+    },
+    "81224": {
+      "cities": [
+        "CRESTED BUTTE"
+      ],
+      "state": "CO"
+    },
+    "81225": {
+      "cities": [
+        "CRESTED BUTTE"
+      ],
+      "state": "CO"
+    },
+    "81226": {
+      "cities": [
+        "FLORENCE"
+      ],
+      "state": "CO"
+    },
+    "81228": {
+      "cities": [
+        "BUENA VISTA"
+      ],
+      "state": "CO"
+    },
+    "81230": {
+      "cities": [
+        "GUNNISON"
+      ],
+      "state": "CO"
+    },
+    "81233": {
+      "cities": [
+        "HOWARD"
+      ],
+      "state": "CO"
+    },
+    "81235": {
+      "cities": [
+        "LAKE CITY"
+      ],
+      "state": "CO"
+    },
+    "81236": {
+      "cities": [
+        "NATHROP"
+      ],
+      "state": "CO"
+    },
+    "81237": {
+      "cities": [
+        "PARLIN"
+      ],
+      "state": "CO"
+    },
+    "81239": {
+      "cities": [
+        "PARLIN"
+      ],
+      "state": "CO"
+    },
+    "81240": {
+      "cities": [
+        "PENROSE"
+      ],
+      "state": "CO"
+    },
+    "81241": {
+      "cities": [
+        "PITKIN"
+      ],
+      "state": "CO"
+    },
+    "81242": {
+      "cities": [
+        "SALIDA"
+      ],
+      "state": "CO"
+    },
+    "81243": {
+      "cities": [
+        "GUNNISON"
+      ],
+      "state": "CO"
+    },
+    "81244": {
+      "cities": [
+        "ROCKVALE"
+      ],
+      "state": "CO"
+    },
+    "81248": {
+      "cities": [
+        "SARGENTS"
+      ],
+      "state": "CO"
+    },
+    "81251": {
+      "cities": [
+        "BUENA VISTA"
+      ],
+      "state": "CO"
+    },
+    "81252": {
+      "cities": [
+        "WESTCLIFFE"
+      ],
+      "state": "CO"
+    },
+    "81253": {
+      "cities": [
+        "WETMORE"
+      ],
+      "state": "CO"
+    },
+    "81301": {
+      "cities": [
+        "DURANGO"
+      ],
+      "state": "CO"
+    },
+    "81302": {
+      "cities": [
+        "DURANGO"
+      ],
+      "state": "CO"
+    },
+    "81303": {
+      "cities": [
+        "DURANGO"
+      ],
+      "state": "CO"
+    },
+    "81320": {
+      "cities": [
+        "CAHONE",
+        "DOVE CREEK"
+      ],
+      "state": "CO"
+    },
+    "81321": {
+      "cities": [
+        "CORTEZ"
+      ],
+      "state": "CO"
+    },
+    "81323": {
+      "cities": [
+        "DOLORES"
+      ],
+      "state": "CO"
+    },
+    "81324": {
+      "cities": [
+        "DOVE CREEK"
+      ],
+      "state": "CO"
+    },
+    "81325": {
+      "cities": [
+        "DOVE CREEK",
+        "EGNAR"
+      ],
+      "state": "CO"
+    },
+    "81326": {
+      "cities": [
+        "HESPERUS"
+      ],
+      "state": "CO"
+    },
+    "81327": {
+      "cities": [
+        "DOVE CREEK",
+        "LEWIS"
+      ],
+      "state": "CO"
+    },
+    "81328": {
+      "cities": [
+        "MANCOS"
+      ],
+      "state": "CO"
+    },
+    "81329": {
+      "cities": [
+        "MARVEL"
+      ],
+      "state": "CO"
+    },
+    "81330": {
+      "cities": [
+        "MESA VERDE NATIONAL PARK"
+      ],
+      "state": "CO"
+    },
+    "81331": {
+      "cities": [
+        "DOVE CREEK",
+        "PLEASANT VIEW"
+      ],
+      "state": "CO"
+    },
+    "81332": {
+      "cities": [
+        "RICO"
+      ],
+      "state": "CO"
+    },
+    "81334": {
+      "cities": [
+        "TOWAOC"
+      ],
+      "state": "CO"
+    },
+    "81335": {
+      "cities": [
+        "DOVE CREEK",
+        "YELLOW JACKET"
+      ],
+      "state": "CO"
+    },
+    "81401": {
+      "cities": [
+        "MONTROSE"
+      ],
+      "state": "CO"
+    },
+    "81402": {
+      "cities": [
+        "MONTROSE"
+      ],
+      "state": "CO"
+    },
+    "81403": {
+      "cities": [
+        "MONTROSE"
+      ],
+      "state": "CO"
+    },
+    "81410": {
+      "cities": [
+        "AUSTIN",
+        "ECKERT"
+      ],
+      "state": "CO"
+    },
+    "81411": {
+      "cities": [
+        "BEDROCK"
+      ],
+      "state": "CO"
+    },
+    "81413": {
+      "cities": [
+        "CEDAREDGE"
+      ],
+      "state": "CO"
+    },
+    "81415": {
+      "cities": [
+        "CRAWFORD"
+      ],
+      "state": "CO"
+    },
+    "81416": {
+      "cities": [
+        "DELTA"
+      ],
+      "state": "CO"
+    },
+    "81418": {
+      "cities": [
+        "ECKERT"
+      ],
+      "state": "CO"
+    },
+    "81419": {
+      "cities": [
+        "HOTCHKISS"
+      ],
+      "state": "CO"
+    },
+    "81420": {
+      "cities": [
+        "HOTCHKISS"
+      ],
+      "state": "CO"
+    },
+    "81422": {
+      "cities": [
+        "NATURITA"
+      ],
+      "state": "CO"
+    },
+    "81423": {
+      "cities": [
+        "NORWOOD"
+      ],
+      "state": "CO"
+    },
+    "81424": {
+      "cities": [
+        "NUCLA"
+      ],
+      "state": "CO"
+    },
+    "81425": {
+      "cities": [
+        "MONTROSE",
+        "OLATHE"
+      ],
+      "state": "CO"
+    },
+    "81426": {
+      "cities": [
+        "OPHIR"
+      ],
+      "state": "CO"
+    },
+    "81427": {
+      "cities": [
+        "OURAY"
+      ],
+      "state": "CO"
+    },
+    "81428": {
+      "cities": [
+        "PAONIA"
+      ],
+      "state": "CO"
+    },
+    "81429": {
+      "cities": [
+        "PARADOX"
+      ],
+      "state": "CO"
+    },
+    "81430": {
+      "cities": [
+        "PLACERVILLE"
+      ],
+      "state": "CO"
+    },
+    "81431": {
+      "cities": [
+        "REDVALE"
+      ],
+      "state": "CO"
+    },
+    "81432": {
+      "cities": [
+        "RIDGWAY"
+      ],
+      "state": "CO"
+    },
+    "81433": {
+      "cities": [
+        "SILVERTON"
+      ],
+      "state": "CO"
+    },
+    "81434": {
+      "cities": [
+        "PAONIA",
+        "SOMERSET"
+      ],
+      "state": "CO"
+    },
+    "81435": {
+      "cities": [
+        "TELLURIDE"
+      ],
+      "state": "CO"
+    },
+    "81501": {
+      "cities": [
+        "GRAND JUNCTION"
+      ],
+      "state": "CO"
+    },
+    "81502": {
+      "cities": [
+        "GRAND JUNCTION"
+      ],
+      "state": "CO"
+    },
+    "81503": {
+      "cities": [
+        "GRAND JUNCTION"
+      ],
+      "state": "CO"
+    },
+    "81504": {
+      "cities": [
+        "GRAND JUNCTION"
+      ],
+      "state": "CO"
+    },
+    "81505": {
+      "cities": [
+        "GRAND JUNCTION"
+      ],
+      "state": "CO"
+    },
+    "81506": {
+      "cities": [
+        "GRAND JUNCTION"
+      ],
+      "state": "CO"
+    },
+    "81507": {
+      "cities": [
+        "GRAND JUNCTION"
+      ],
+      "state": "CO"
+    },
+    "81520": {
+      "cities": [
+        "CLIFTON",
+        "GRAND JUNCTION"
+      ],
+      "state": "CO"
+    },
+    "81521": {
+      "cities": [
+        "FRUITA",
+        "GRAND JUNCTION"
+      ],
+      "state": "CO"
+    },
+    "81522": {
+      "cities": [
+        "GATEWAY"
+      ],
+      "state": "CO"
+    },
+    "81523": {
+      "cities": [
+        "GRAND JUNCTION"
+      ],
+      "state": "CO"
+    },
+    "81524": {
+      "cities": [
+        "LOMA"
+      ],
+      "state": "CO"
+    },
+    "81525": {
+      "cities": [
+        "MACK"
+      ],
+      "state": "CO"
+    },
+    "81526": {
+      "cities": [
+        "GRAND JUNCTION",
+        "PALISADE"
+      ],
+      "state": "CO"
+    },
+    "81527": {
+      "cities": [
+        "GRAND JUNCTION",
+        "WHITEWATER"
+      ],
+      "state": "CO"
+    },
+    "81601": {
+      "cities": [
+        "GLENWOOD SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "81602": {
+      "cities": [
+        "GLENWOOD SPRINGS"
+      ],
+      "state": "CO"
+    },
+    "81610": {
+      "cities": [
+        "DINOSAUR"
+      ],
+      "state": "CO"
+    },
+    "81611": {
+      "cities": [
+        "ASPEN"
+      ],
+      "state": "CO"
+    },
+    "81612": {
+      "cities": [
+        "ASPEN"
+      ],
+      "state": "CO"
+    },
+    "81615": {
+      "cities": [
+        "SNOWMASS VILLAGE"
+      ],
+      "state": "CO"
+    },
+    "81620": {
+      "cities": [
+        "AVON"
+      ],
+      "state": "CO"
+    },
+    "81621": {
+      "cities": [
+        "BASALT"
+      ],
+      "state": "CO"
+    },
+    "81623": {
+      "cities": [
+        "CARBONDALE"
+      ],
+      "state": "CO"
+    },
+    "81624": {
+      "cities": [
+        "COLLBRAN"
+      ],
+      "state": "CO"
+    },
+    "81625": {
+      "cities": [
+        "CRAIG"
+      ],
+      "state": "CO"
+    },
+    "81626": {
+      "cities": [
+        "CRAIG"
+      ],
+      "state": "CO"
+    },
+    "81630": {
+      "cities": [
+        "DE BEQUE"
+      ],
+      "state": "CO"
+    },
+    "81631": {
+      "cities": [
+        "EAGLE"
+      ],
+      "state": "CO"
+    },
+    "81632": {
+      "cities": [
+        "EDWARDS"
+      ],
+      "state": "CO"
+    },
+    "81635": {
+      "cities": [
+        "PARACHUTE"
+      ],
+      "state": "CO"
+    },
+    "81636": {
+      "cities": [
+        "PARACHUTE"
+      ],
+      "state": "CO"
+    },
+    "81637": {
+      "cities": [
+        "GYPSUM"
+      ],
+      "state": "CO"
+    },
+    "81638": {
+      "cities": [
+        "HAMILTON"
+      ],
+      "state": "CO"
+    },
+    "81639": {
+      "cities": [
+        "HAYDEN"
+      ],
+      "state": "CO"
+    },
+    "81640": {
+      "cities": [
+        "MAYBELL"
+      ],
+      "state": "CO"
+    },
+    "81641": {
+      "cities": [
+        "MEEKER"
+      ],
+      "state": "CO"
+    },
+    "81642": {
+      "cities": [
+        "MEREDITH"
+      ],
+      "state": "CO"
+    },
+    "81643": {
+      "cities": [
+        "MESA"
+      ],
+      "state": "CO"
+    },
+    "81645": {
+      "cities": [
+        "MINTURN"
+      ],
+      "state": "CO"
+    },
+    "81646": {
+      "cities": [
+        "MOLINA"
+      ],
+      "state": "CO"
+    },
+    "81647": {
+      "cities": [
+        "NEW CASTLE"
+      ],
+      "state": "CO"
+    },
+    "81648": {
+      "cities": [
+        "RANGELY"
+      ],
+      "state": "CO"
+    },
+    "81649": {
+      "cities": [
+        "RED CLIFF"
+      ],
+      "state": "CO"
+    },
+    "81650": {
+      "cities": [
+        "RIFLE"
+      ],
+      "state": "CO"
+    },
+    "81652": {
+      "cities": [
+        "RIFLE",
+        "SILT"
+      ],
+      "state": "CO"
+    },
+    "81653": {
+      "cities": [
+        "SLATER"
+      ],
+      "state": "CO"
+    },
+    "81654": {
+      "cities": [
+        "BASALT",
+        "SNOWMASS"
+      ],
+      "state": "CO"
+    },
+    "81655": {
+      "cities": [
+        "WOLCOTT"
+      ],
+      "state": "CO"
+    },
+    "81656": {
+      "cities": [
+        "WOODY CREEK"
+      ],
+      "state": "CO"
+    },
+    "81657": {
+      "cities": [
+        "VAIL"
+      ],
+      "state": "CO"
+    },
+    "81658": {
+      "cities": [
+        "VAIL"
+      ],
+      "state": "CO"
+    }
+  }
+}
