@@ -52,6 +52,7 @@
     "80908": { "preferred": "COLORADO SPRINGS", "recognized": ["COLO SPGS", "COLORADO SPGS"], "avoid": ["BLACK FOREST", "CO SPGS"],               "state": "CO" },
     "80913": { "preferred": "COLORADO SPRINGS", "recognized": ["COLO SPGS", "COLORADO SPGS", "FORT CARSON", "FT CARSON"], "avoid": ["CO SPGS"],    "state": "CO" },
     "80914": { "preferred": "COLORADO SPRINGS", "recognized": ["CHEY MTN AFB", "CHEYENNE MOUNTAIN AFB", "COLO SPGS", "COLORADO SPGS", "PETERSON AFB"], "avoid": ["CHEYENNE MT COMPLEX", "CHEYENNE MTN AFB", "CMAFB", "CO SPGS", "PETERSON AIR FORCE BASE"], "state": "CO" },
+    "80915": { "preferred": "COLORADO SPRINGS", "recognized": ["COLO SPGS", "COLORADO SPGS"], "avoid": ["CO SPGS"],                               "state": "CO" },
     "80916": { "preferred": "COLORADO SPRINGS", "recognized": ["COLO SPGS", "COLORADO SPGS"], "avoid": ["CO SPGS"],                               "state": "CO" },
     "80919": { "preferred": "COLORADO SPRINGS", "recognized": ["COLO SPGS", "COLORADO SPGS"], "avoid": ["CO SPGS", "ROCKRIMMON"],                 "state": "CO" },
     "80921": { "preferred": "COLORADO SPRINGS", "recognized": ["COLO SPGS", "COLORADO SPGS"], "avoid": ["CO SPGS"],                               "state": "CO" },
