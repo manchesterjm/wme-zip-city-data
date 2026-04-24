@@ -7,6 +7,7 @@
     "80808": { "preferred": "CALHAN",           "recognized": [],                             "avoid": ["ELLICOTT"],                  "state": "CO" },
     "80831": { "preferred": "PEYTON",           "recognized": ["FALCON"],                     "avoid": [],                            "state": "CO" },
     "80864": { "preferred": "YODER",            "recognized": [],                             "avoid": ["EDISON", "TRUCKTON"],        "state": "CO" },
+    "80902": { "preferred": "COLORADO SPRINGS", "recognized": ["COLO SPGS", "COLORADO SPGS", "FORT CARSON", "FT CARSON"], "avoid": ["CO SPGS"], "state": "CO" },
     "80906": { "preferred": "COLORADO SPRINGS", "recognized": ["COLO SPGS", "COLORADO SPGS"], "avoid": ["CO SPGS", "STRATMOOR HILLS"], "state": "CO" },
     "80908": { "preferred": "COLORADO SPRINGS", "recognized": ["COLO SPGS", "COLORADO SPGS"], "avoid": ["BLACK FOREST", "CO SPGS"],   "state": "CO" },
     "81001": { "preferred": "PUEBLO",           "recognized": ["PUEBLO DEP AC", "PUEBLO DEPOT ACTIVITY"], "avoid": ["BELLE PLAIN", "DEVINE", "PUEBLO ARMY DEPOT"], "state": "CO" },

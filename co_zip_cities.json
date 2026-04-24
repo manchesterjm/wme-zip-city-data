@@ -3,9 +3,9 @@
     "source": "USPS ZIP_Locale_Detail.xls + co_zip_cities.overrides.json",
     "source_xls_last_modified": "2026-04-24T13:22:23+00:00",
     "state": "CO",
-    "generated": "2026-04-24T14:42:40+00:00",
+    "generated": "2026-04-24T14:43:13+00:00",
     "zip_count": 589,
-    "overrides_applied": 13,
+    "overrides_applied": 14,
     "ambiguous_count": 32,
     "schema": 2,
     "schema_note": "preferred=city-to-normalize-to (null=ambiguous). recognized=USPS-valid aliases (leave alone). avoid=USPS-invalid names (fix to preferred)."
@@ -2140,8 +2140,15 @@
     },
     "80902": {
       "preferred": "COLORADO SPRINGS",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "COLO SPGS",
+        "COLORADO SPGS",
+        "FORT CARSON",
+        "FT CARSON"
+      ],
+      "avoid": [
+        "CO SPGS"
+      ],
       "state": "CO"
     },
     "80903": {
