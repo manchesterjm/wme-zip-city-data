@@ -1,27 +1,39 @@
 """
-Build co_zip_cities.json from USPS ZIP_Locale_Detail.xls.
+Build co_zip_cities.json — USPS-aligned ZIP -> city data for Colorado.
 
-Source: USPS Post Office Locale Detail file (ZIP_Locale_Detail.xls)
-        downloaded from USPS. Authoritative — same data USPS uses internally.
+Sources:
+  1. USPS ZIP_Locale_Detail.xls (Post Office Locale Detail) — free, public
+     download from postalpro.usps.com. Gives us the preferred city per ZIP.
+  2. co_zip_cities.overrides.json — hand-verified entries from the USPS
+     Cities-by-ZIP web tool, adding recognized aliases and avoid lists.
+
+Merge order: XLS base -> overrides win where present.
 
 Schema:
   {
-    "metadata": { source, state, generated, zip_count, ambiguous_count, ... },
+    "metadata": { source, state, generated, zip_count, ambiguous_count,
+                  overrides_applied, schema },
     "zips": {
-      "80908": { "cities": ["COLORADO SPRINGS"],            "state": "CO" },
-      "80133": { "cities": ["MONUMENT", "PALMER LAKE"],     "state": "CO" }
+      "<ZIP>": {
+        "preferred":  "CITY NAME" | null,      // null = ambiguous, unresolved
+        "candidates": ["A", "B"],              // only present when preferred is null
+        "recognized": ["ALIAS", ...],
+        "avoid":      ["NAME", ...],
+        "state":      "CO"
+      }
     }
   }
 
-RPP auto-fixer logic:
-  - If RPP city (case-insensitive) is in `cities`: leave alone.
-  - Else if `cities` has 1 entry: set RPP city to that entry.
-  - Else (`cities` has multiple entries and RPP doesn't match any): flag
-    for manual review — we don't know which of the USPS-recognized cities
-    is correct for this specific address.
-
-Run with Windows Python (has pandas + xlrd):
-  D:\\Python313\\python.exe build_co_zip_cities_from_xls.py
+Auto-fixer logic (match Josh's policy on 2026-04-24):
+  - preferred set, current city == preferred          -> OK
+  - preferred set, current city in recognized          -> OK (USPS-valid alias)
+  - preferred set, current city in avoid               -> FIX to preferred
+  - preferred set, current city blank                  -> FIX to preferred
+  - preferred set, current city is anything else      -> FIX to preferred
+  - preferred null, current city in candidates         -> OK
+  - preferred null, current city blank                 -> AMBIGUOUS (manual)
+  - preferred null, current city mismatch candidates  -> AMBIGUOUS (manual)
+  - ZIP not in data                                    -> NO_DATA
 """
 
 import json
@@ -35,29 +47,29 @@ except ImportError:
     print("pandas not available. Run with D:\\Python313\\python.exe", file=sys.stderr)
     sys.exit(1)
 
-SOURCE = Path(__file__).parent / "ZIP_Locale_Detail.xls"
-OUTPUT = Path(__file__).parent / "co_zip_cities.json"
+HERE = Path(__file__).parent
+SOURCE = HERE / "ZIP_Locale_Detail.xls"
+OVERRIDES_SRC = HERE / "co_zip_cities.overrides.json"
+OUTPUT = HERE / "co_zip_cities.json"
 TARGET_STATE = "CO"
+SCHEMA_VERSION = 2
 
 
-def main() -> int:
-    if not SOURCE.exists():
-        print(f"Source not found: {SOURCE}", file=sys.stderr)
-        return 1
+def load_overrides() -> dict:
+    if not OVERRIDES_SRC.exists():
+        return {}
+    with OVERRIDES_SRC.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data.get("overrides", {}) or {}
 
-    print(f"Reading {SOURCE} (this takes a few seconds for 44K rows)...")
+
+def build_base_from_xls() -> dict:
+    """Read XLS, emit one entry per CO ZIP with preferred or candidates set."""
+    print(f"Reading {SOURCE} ...")
     df = pd.read_excel(SOURCE, sheet_name="ZIP_DETAIL")
-    print(f"  {len(df)} total rows")
-
     co = df[df["PHYSICAL STATE"] == TARGET_STATE].copy()
-    print(f"  {len(co)} {TARGET_STATE} rows covering {co['DELIVERY ZIPCODE'].nunique()} unique ZIPs")
 
-    # Each ZIP may be served by multiple post offices. When their PHYSICAL
-    # CITY values agree, the ZIP is unambiguous. When they differ, the ZIP
-    # spans multiple USPS-recognized city names and we emit all of them —
-    # the auto-fixer treats a match against any entry as correct.
-    result = {}
-    ambiguous_zips = []
+    base = {}
     for zip_code, group in co.groupby("DELIVERY ZIPCODE"):
         cities = sorted({
             c.strip().upper()
@@ -67,42 +79,96 @@ def main() -> int:
         if not cities:
             continue
         zip_str = f"{int(zip_code):05d}"
-        result[zip_str] = {"cities": cities, "state": TARGET_STATE}
-        if len(cities) > 1:
-            ambiguous_zips.append((zip_str, cities))
+        if len(cities) == 1:
+            base[zip_str] = {
+                "preferred": cities[0],
+                "recognized": [],
+                "avoid": [],
+                "state": TARGET_STATE,
+            }
+        else:
+            # Ambiguous: XLS has multiple post office cities for this ZIP.
+            # Without the USPS City State Product, we can't tell which is the
+            # USPS-preferred name — leave null for manual resolution via
+            # overrides file.
+            base[zip_str] = {
+                "preferred": None,
+                "candidates": cities,
+                "recognized": [],
+                "avoid": [],
+                "state": TARGET_STATE,
+            }
+    return base
 
-    if ambiguous_zips:
-        print(f"\n  {len(ambiguous_zips)} ZIPs span multiple cities (emitting all):")
-        for z, cs in ambiguous_zips[:10]:
-            print(f"    {z}: {cs}")
-        if len(ambiguous_zips) > 10:
-            print(f"    ... {len(ambiguous_zips) - 10} more")
+
+def merge(base: dict, overrides: dict) -> tuple[dict, int]:
+    """Apply overrides over base. Override wins entirely for each ZIP it touches."""
+    merged = dict(base)
+    applied = 0
+    for zip_code, override in overrides.items():
+        existing = merged.get(zip_code, {"state": TARGET_STATE})
+        # Override replaces the semantic fields entirely; preserves state if absent.
+        merged[zip_code] = {
+            "preferred":  override.get("preferred"),
+            "recognized": sorted(set(override.get("recognized", []))),
+            "avoid":      sorted(set(override.get("avoid", []))),
+            "state":      override.get("state", existing.get("state", TARGET_STATE)),
+        }
+        # Drop candidates — an override resolves the ambiguity.
+        applied += 1
+    return merged, applied
+
+
+def main() -> int:
+    if not SOURCE.exists():
+        print(f"Source not found: {SOURCE}", file=sys.stderr)
+        return 1
+
+    overrides = load_overrides()
+    print(f"Loaded {len(overrides)} override entries from {OVERRIDES_SRC.name}")
+
+    base = build_base_from_xls()
+    print(f"Built base: {len(base)} ZIPs")
+
+    merged, applied = merge(base, overrides)
+    print(f"Merged: {applied} overrides applied")
+
+    ambiguous = sum(1 for e in merged.values() if e.get("preferred") is None)
+    print(f"Remaining ambiguous (preferred=null): {ambiguous}")
 
     output = {
         "metadata": {
-            "source": "USPS ZIP_Locale_Detail.xls (Post Office Locale Detail)",
-            "source_file": str(SOURCE),
-            "source_last_modified": datetime.fromtimestamp(SOURCE.stat().st_mtime, timezone.utc).isoformat(timespec="seconds"),
+            "source": "USPS ZIP_Locale_Detail.xls + co_zip_cities.overrides.json",
+            "source_xls_last_modified": datetime.fromtimestamp(
+                SOURCE.stat().st_mtime, timezone.utc
+            ).isoformat(timespec="seconds"),
             "state": TARGET_STATE,
             "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "zip_count": len(result),
-            "ambiguous_count": len(ambiguous_zips),
-            "schema_note": "Each ZIP maps to {cities: [...], state}. Multi-entry cities = ZIP spans multiple USPS-recognized city names.",
+            "zip_count": len(merged),
+            "overrides_applied": applied,
+            "ambiguous_count": ambiguous,
+            "schema": SCHEMA_VERSION,
+            "schema_note": "preferred=city-to-normalize-to (null=ambiguous). recognized=USPS-valid aliases (leave alone). avoid=USPS-invalid names (fix to preferred).",
         },
-        "zips": dict(sorted(result.items())),
+        "zips": dict(sorted(merged.items())),
     }
 
-    # Path(__file__) gives the Windows path when invoked from WSL via powershell.
-    # Resolve it to a real output location.
-    out_path = Path(OUTPUT)
-    with out_path.open("w", encoding="utf-8") as f:
+    with OUTPUT.open("w", encoding="utf-8") as f:
         json.dump(output, f, indent=2)
-    print(f"\nWrote {out_path} ({len(result)} ZIPs)")
+    print(f"Wrote {OUTPUT.name} ({len(merged)} ZIPs, schema v{SCHEMA_VERSION})")
 
-    # Sanity check: show known ZIPs so Josh can spot-check.
-    for z in ["80908", "80918", "80919", "80920", "80808", "80132", "80133"]:
-        if z in result:
-            print(f"  {z} -> {result[z]['cities']}")
+    # Spot-check.
+    for z in ["80106", "80831", "80908", "81212", "80133", "80918"]:
+        e = merged.get(z)
+        if e:
+            pref = e.get("preferred") or f"(ambiguous: {', '.join(e.get('candidates', []))})"
+            rec = e.get("recognized", [])
+            avo = e.get("avoid", [])
+            extras = []
+            if rec: extras.append(f"+{len(rec)} recognized")
+            if avo: extras.append(f"+{len(avo)} avoid")
+            extras_str = f" [{', '.join(extras)}]" if extras else ""
+            print(f"  {z} -> {pref}{extras_str}")
     return 0
 
 

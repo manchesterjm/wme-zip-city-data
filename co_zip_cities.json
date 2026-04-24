@@ -1,3579 +1,3714 @@
 {
   "metadata": {
-    "source": "USPS ZIP_Locale_Detail.xls (Post Office Locale Detail)",
-    "source_file": "C:\\Users\\manch\\Desktop\\WME\\ZIP-City-Data\\ZIP_Locale_Detail.xls",
-    "source_last_modified": "2026-04-24T13:22:23+00:00",
+    "source": "USPS ZIP_Locale_Detail.xls + co_zip_cities.overrides.json",
+    "source_xls_last_modified": "2026-04-24T13:22:23+00:00",
     "state": "CO",
-    "generated": "2026-04-24T13:42:11+00:00",
+    "generated": "2026-04-24T14:38:59+00:00",
     "zip_count": 589,
+    "overrides_applied": 10,
     "ambiguous_count": 32,
-    "schema_note": "Each ZIP maps to {cities: [...], state}. Multi-entry cities = ZIP spans multiple USPS-recognized city names."
+    "schema": 2,
+    "schema_note": "preferred=city-to-normalize-to (null=ambiguous). recognized=USPS-valid aliases (leave alone). avoid=USPS-invalid names (fix to preferred)."
   },
   "zips": {
     "80001": {
-      "cities": [
-        "ARVADA"
-      ],
+      "preferred": "ARVADA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80002": {
-      "cities": [
-        "ARVADA"
-      ],
+      "preferred": "ARVADA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80003": {
-      "cities": [
-        "ARVADA"
-      ],
+      "preferred": "ARVADA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80004": {
-      "cities": [
-        "ARVADA"
-      ],
+      "preferred": "ARVADA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80005": {
-      "cities": [
-        "ARVADA"
-      ],
+      "preferred": "ARVADA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80006": {
-      "cities": [
-        "ARVADA"
-      ],
+      "preferred": "ARVADA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80007": {
-      "cities": [
-        "ARVADA"
-      ],
+      "preferred": "ARVADA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80010": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80011": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80012": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80013": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80014": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80015": {
-      "cities": [
-        "CENTENNIAL"
-      ],
+      "preferred": "CENTENNIAL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80016": {
-      "cities": [
-        "CENTENNIAL"
-      ],
+      "preferred": "CENTENNIAL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80017": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80018": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80019": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80020": {
-      "cities": [
-        "BROOMFIELD"
-      ],
+      "preferred": "BROOMFIELD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80021": {
-      "cities": [
-        "BROOMFIELD"
-      ],
+      "preferred": "BROOMFIELD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80022": {
-      "cities": [
-        "COMMERCE CITY"
-      ],
+      "preferred": "COMMERCE CITY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80023": {
-      "cities": [
-        "BROOMFIELD"
-      ],
+      "preferred": "BROOMFIELD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80024": {
-      "cities": [
-        "COMMERCE CITY"
-      ],
+      "preferred": "COMMERCE CITY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80025": {
-      "cities": [
-        "ELDORADO SPRINGS"
-      ],
+      "preferred": "ELDORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80026": {
-      "cities": [
-        "LAFAYETTE"
-      ],
+      "preferred": "LAFAYETTE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80027": {
-      "cities": [
-        "SUPERIOR"
-      ],
+      "preferred": "SUPERIOR",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80030": {
-      "cities": [
-        "WESTMINSTER"
-      ],
+      "preferred": "WESTMINSTER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80031": {
-      "cities": [
-        "WESTMINSTER"
-      ],
+      "preferred": "WESTMINSTER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80033": {
-      "cities": [
-        "WHEAT RIDGE"
-      ],
+      "preferred": "WHEAT RIDGE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80034": {
-      "cities": [
-        "WHEAT RIDGE"
-      ],
+      "preferred": "WHEAT RIDGE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80035": {
-      "cities": [
-        "WESTMINSTER"
-      ],
+      "preferred": "WESTMINSTER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80036": {
-      "cities": [
-        "WESTMINSTER"
-      ],
+      "preferred": "WESTMINSTER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80037": {
-      "cities": [
-        "COMMERCE CITY"
-      ],
+      "preferred": "COMMERCE CITY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80038": {
-      "cities": [
-        "BROOMFIELD"
-      ],
+      "preferred": "BROOMFIELD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80040": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80041": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80042": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80044": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80045": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80046": {
-      "cities": [
-        "CENTENNIAL"
-      ],
+      "preferred": "CENTENNIAL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80047": {
-      "cities": [
-        "AURORA"
-      ],
+      "preferred": "AURORA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80101": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "AGATE",
         "DEER TRAIL"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80102": {
-      "cities": [
-        "BENNETT"
-      ],
+      "preferred": "BENNETT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80103": {
-      "cities": [
-        "BYERS"
-      ],
+      "preferred": "BYERS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80104": {
-      "cities": [
-        "CASTLE ROCK"
-      ],
+      "preferred": "CASTLE ROCK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80105": {
-      "cities": [
-        "DEER TRAIL"
-      ],
+      "preferred": "DEER TRAIL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80106": {
-      "cities": [
-        "ELBERT"
+      "preferred": "ELBERT",
+      "recognized": [],
+      "avoid": [
+        "BLACK FOREST"
       ],
       "state": "CO"
     },
     "80107": {
-      "cities": [
-        "ELIZABETH"
-      ],
+      "preferred": "ELIZABETH",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80108": {
-      "cities": [
-        "CASTLE ROCK"
-      ],
+      "preferred": "CASTLE ROCK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80109": {
-      "cities": [
-        "CASTLE ROCK"
-      ],
+      "preferred": "CASTLE ROCK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80110": {
-      "cities": [
-        "ENGLEWOOD"
-      ],
+      "preferred": "ENGLEWOOD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80111": {
-      "cities": [
-        "GREENWOOD VILLAGE"
-      ],
+      "preferred": "GREENWOOD VILLAGE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80112": {
-      "cities": [
-        "GREENWOOD VILLAGE"
-      ],
+      "preferred": "GREENWOOD VILLAGE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80113": {
-      "cities": [
-        "ENGLEWOOD"
-      ],
+      "preferred": "ENGLEWOOD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80116": {
-      "cities": [
-        "FRANKTOWN"
-      ],
+      "preferred": "FRANKTOWN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80117": {
-      "cities": [
-        "KIOWA"
-      ],
+      "preferred": "KIOWA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80118": {
-      "cities": [
-        "LARKSPUR"
-      ],
+      "preferred": "LARKSPUR",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80120": {
-      "cities": [
-        "LITTLETON"
-      ],
+      "preferred": "LITTLETON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80121": {
-      "cities": [
-        "CENTENNIAL"
-      ],
+      "preferred": "CENTENNIAL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80122": {
-      "cities": [
-        "CENTENNIAL"
-      ],
+      "preferred": "CENTENNIAL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80123": {
-      "cities": [
-        "LITTLETON"
-      ],
+      "preferred": "LITTLETON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80124": {
-      "cities": [
-        "HIGHLANDS RANCH"
-      ],
+      "preferred": "HIGHLANDS RANCH",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80125": {
-      "cities": [
-        "LITTLETON"
-      ],
+      "preferred": "LITTLETON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80126": {
-      "cities": [
-        "HIGHLANDS RANCH"
-      ],
+      "preferred": "HIGHLANDS RANCH",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80127": {
-      "cities": [
-        "LITTLETON"
-      ],
+      "preferred": "LITTLETON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80128": {
-      "cities": [
-        "LITTLETON"
-      ],
+      "preferred": "LITTLETON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80129": {
-      "cities": [
-        "HIGHLANDS RANCH"
-      ],
+      "preferred": "HIGHLANDS RANCH",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80130": {
-      "cities": [
-        "HIGHLANDS RANCH"
-      ],
+      "preferred": "HIGHLANDS RANCH",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80131": {
-      "cities": [
-        "LOUVIERS"
-      ],
+      "preferred": "LOUVIERS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80132": {
-      "cities": [
-        "MONUMENT"
-      ],
+      "preferred": "MONUMENT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80133": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "MONUMENT",
         "PALMER LAKE"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80134": {
-      "cities": [
-        "PARKER"
-      ],
+      "preferred": "PARKER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80135": {
-      "cities": [
-        "SEDALIA"
-      ],
+      "preferred": "SEDALIA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80136": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "BENNETT",
         "STRASBURG"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80137": {
-      "cities": [
-        "WATKINS"
-      ],
+      "preferred": "WATKINS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80138": {
-      "cities": [
-        "PARKER"
-      ],
+      "preferred": "PARKER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80150": {
-      "cities": [
-        "ENGLEWOOD"
-      ],
+      "preferred": "ENGLEWOOD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80151": {
-      "cities": [
-        "ENGLEWOOD"
-      ],
+      "preferred": "ENGLEWOOD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80155": {
-      "cities": [
-        "GREENWOOD VILLAGE"
-      ],
+      "preferred": "GREENWOOD VILLAGE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80160": {
-      "cities": [
-        "LITTLETON"
-      ],
+      "preferred": "LITTLETON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80161": {
-      "cities": [
-        "CENTENNIAL"
-      ],
+      "preferred": "CENTENNIAL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80162": {
-      "cities": [
-        "LITTLETON"
-      ],
+      "preferred": "LITTLETON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80163": {
-      "cities": [
-        "HIGHLANDS RANCH"
-      ],
+      "preferred": "HIGHLANDS RANCH",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80201": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80202": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80203": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80204": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80205": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80206": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80207": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80209": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80210": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80211": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80212": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80214": {
-      "cities": [
-        "LAKEWOOD"
-      ],
+      "preferred": "LAKEWOOD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80215": {
-      "cities": [
-        "LAKEWOOD"
-      ],
+      "preferred": "LAKEWOOD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80216": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80217": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80218": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80219": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80220": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80221": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80222": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80223": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80224": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80226": {
-      "cities": [
-        "LAKEWOOD"
-      ],
+      "preferred": "LAKEWOOD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80227": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80228": {
-      "cities": [
-        "LAKEWOOD"
-      ],
+      "preferred": "LAKEWOOD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80229": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80230": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80231": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80232": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80233": {
-      "cities": [
-        "NORTHGLENN"
-      ],
+      "preferred": "NORTHGLENN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80234": {
-      "cities": [
-        "NORTHGLENN"
-      ],
+      "preferred": "NORTHGLENN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80235": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80236": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80237": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80238": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80239": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80241": {
-      "cities": [
-        "NORTHGLENN"
-      ],
+      "preferred": "NORTHGLENN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80246": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80247": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80248": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80249": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80250": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80260": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80264": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80265": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80290": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80293": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80294": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80299": {
-      "cities": [
-        "DENVER"
-      ],
+      "preferred": "DENVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80301": {
-      "cities": [
-        "BOULDER"
-      ],
+      "preferred": "BOULDER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80302": {
-      "cities": [
-        "BOULDER"
-      ],
+      "preferred": "BOULDER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80303": {
-      "cities": [
-        "BOULDER"
-      ],
+      "preferred": "BOULDER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80304": {
-      "cities": [
-        "BOULDER"
-      ],
+      "preferred": "BOULDER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80305": {
-      "cities": [
-        "BOULDER"
-      ],
+      "preferred": "BOULDER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80306": {
-      "cities": [
-        "BOULDER"
-      ],
+      "preferred": "BOULDER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80307": {
-      "cities": [
-        "BOULDER"
-      ],
+      "preferred": "BOULDER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80308": {
-      "cities": [
-        "BOULDER"
-      ],
+      "preferred": "BOULDER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80401": {
-      "cities": [
-        "GOLDEN"
-      ],
+      "preferred": "GOLDEN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80402": {
-      "cities": [
-        "GOLDEN"
-      ],
+      "preferred": "GOLDEN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80403": {
-      "cities": [
-        "GOLDEN"
-      ],
+      "preferred": "GOLDEN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80420": {
-      "cities": [
-        "ALMA"
-      ],
+      "preferred": "ALMA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80421": {
-      "cities": [
-        "BAILEY"
-      ],
+      "preferred": "BAILEY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80422": {
-      "cities": [
-        "BLACK HAWK"
-      ],
+      "preferred": "BLACK HAWK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80423": {
-      "cities": [
-        "MC COY"
-      ],
+      "preferred": "MC COY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80424": {
-      "cities": [
-        "BRECKENRIDGE"
-      ],
+      "preferred": "BRECKENRIDGE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80425": {
-      "cities": [
-        "BUFFALO CREEK"
-      ],
+      "preferred": "BUFFALO CREEK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80426": {
-      "cities": [
-        "BURNS"
-      ],
+      "preferred": "BURNS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80427": {
-      "cities": [
-        "CENTRAL CITY"
-      ],
+      "preferred": "CENTRAL CITY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80428": {
-      "cities": [
-        "CLARK"
-      ],
+      "preferred": "CLARK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80430": {
-      "cities": [
-        "WALDEN"
-      ],
+      "preferred": "WALDEN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80432": {
-      "cities": [
-        "COMO"
-      ],
+      "preferred": "COMO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80433": {
-      "cities": [
-        "CONIFER"
-      ],
+      "preferred": "CONIFER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80434": {
-      "cities": [
-        "COWDREY"
-      ],
+      "preferred": "COWDREY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80435": {
-      "cities": [
-        "DILLON"
-      ],
+      "preferred": "DILLON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80436": {
-      "cities": [
-        "DUMONT"
-      ],
+      "preferred": "DUMONT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80437": {
-      "cities": [
-        "EVERGREEN"
-      ],
+      "preferred": "EVERGREEN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80438": {
-      "cities": [
-        "EMPIRE"
-      ],
+      "preferred": "EMPIRE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80439": {
-      "cities": [
-        "GOLDEN"
-      ],
+      "preferred": "GOLDEN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80440": {
-      "cities": [
-        "FAIRPLAY"
-      ],
+      "preferred": "FAIRPLAY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80442": {
-      "cities": [
-        "FRASER"
-      ],
+      "preferred": "FRASER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80443": {
-      "cities": [
-        "FRISCO"
-      ],
+      "preferred": "FRISCO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80444": {
-      "cities": [
-        "GEORGETOWN"
-      ],
+      "preferred": "GEORGETOWN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80446": {
-      "cities": [
-        "GRANBY"
-      ],
+      "preferred": "GRANBY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80447": {
-      "cities": [
-        "GRAND LAKE"
-      ],
+      "preferred": "GRAND LAKE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80448": {
-      "cities": [
-        "SHAWNEE"
-      ],
+      "preferred": "SHAWNEE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80449": {
-      "cities": [
-        "HARTSEL"
-      ],
+      "preferred": "HARTSEL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80451": {
-      "cities": [
-        "HOT SULPHUR SPRINGS"
-      ],
+      "preferred": "HOT SULPHUR SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80452": {
-      "cities": [
-        "IDAHO SPRINGS"
-      ],
+      "preferred": "IDAHO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80453": {
-      "cities": [
-        "IDLEDALE"
-      ],
+      "preferred": "IDLEDALE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80454": {
-      "cities": [
-        "INDIAN HILLS"
-      ],
+      "preferred": "INDIAN HILLS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80455": {
-      "cities": [
-        "JAMESTOWN"
-      ],
+      "preferred": "JAMESTOWN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80456": {
-      "cities": [
-        "FAIRPLAY"
-      ],
+      "preferred": "FAIRPLAY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80457": {
-      "cities": [
-        "KITTREDGE"
-      ],
+      "preferred": "KITTREDGE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80459": {
-      "cities": [
-        "KREMMLING"
-      ],
+      "preferred": "KREMMLING",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80461": {
-      "cities": [
-        "LEADVILLE"
-      ],
+      "preferred": "LEADVILLE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80463": {
-      "cities": [
-        "MC COY"
-      ],
+      "preferred": "MC COY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80465": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "GOLDEN",
         "MORRISON"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80466": {
-      "cities": [
-        "NEDERLAND"
-      ],
+      "preferred": "NEDERLAND",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80467": {
-      "cities": [
-        "OAK CREEK"
-      ],
+      "preferred": "OAK CREEK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80468": {
-      "cities": [
-        "KREMMLING"
-      ],
+      "preferred": "KREMMLING",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80469": {
-      "cities": [
-        "OAK CREEK"
-      ],
+      "preferred": "OAK CREEK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80470": {
-      "cities": [
-        "PINE"
-      ],
+      "preferred": "PINE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80471": {
-      "cities": [
-        "PINECLIFFE"
-      ],
+      "preferred": "PINECLIFFE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80473": {
-      "cities": [
-        "RAND"
-      ],
+      "preferred": "RAND",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80474": {
-      "cities": [
-        "ROLLINSVILLE"
-      ],
+      "preferred": "ROLLINSVILLE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80475": {
-      "cities": [
-        "SHAWNEE"
-      ],
+      "preferred": "SHAWNEE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80476": {
-      "cities": [
-        "SILVER PLUME"
-      ],
+      "preferred": "SILVER PLUME",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80477": {
-      "cities": [
-        "STEAMBOAT SPRINGS"
-      ],
+      "preferred": "STEAMBOAT SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80478": {
-      "cities": [
-        "TABERNASH"
-      ],
+      "preferred": "TABERNASH",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80479": {
-      "cities": [
-        "TOPONAS"
-      ],
+      "preferred": "TOPONAS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80480": {
-      "cities": [
-        "WALDEN"
-      ],
+      "preferred": "WALDEN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80481": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "JAMESTOWN",
         "WARD"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80482": {
-      "cities": [
-        "WINTER PARK"
-      ],
+      "preferred": "WINTER PARK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80483": {
-      "cities": [
-        "YAMPA"
-      ],
+      "preferred": "YAMPA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80487": {
-      "cities": [
-        "STEAMBOAT SPRINGS"
-      ],
+      "preferred": "STEAMBOAT SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80488": {
-      "cities": [
-        "STEAMBOAT SPRINGS"
-      ],
+      "preferred": "STEAMBOAT SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80497": {
-      "cities": [
-        "SILVERTHORNE"
-      ],
+      "preferred": "SILVERTHORNE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80498": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "DILLON",
         "SILVERTHORNE"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80501": {
-      "cities": [
-        "LONGMONT"
-      ],
+      "preferred": "LONGMONT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80502": {
-      "cities": [
-        "LONGMONT"
-      ],
+      "preferred": "LONGMONT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80503": {
-      "cities": [
-        "LONGMONT"
-      ],
+      "preferred": "LONGMONT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80504": {
-      "cities": [
-        "LONGMONT"
-      ],
+      "preferred": "LONGMONT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80510": {
-      "cities": [
-        "ALLENSPARK"
-      ],
+      "preferred": "ALLENSPARK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80511": {
-      "cities": [
-        "ESTES PARK"
-      ],
+      "preferred": "ESTES PARK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80512": {
-      "cities": [
-        "BELLVUE"
-      ],
+      "preferred": "BELLVUE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80513": {
-      "cities": [
-        "BERTHOUD"
-      ],
+      "preferred": "BERTHOUD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80514": {
-      "cities": [
-        "DACONO"
-      ],
+      "preferred": "DACONO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80515": {
-      "cities": [
-        "DRAKE"
-      ],
+      "preferred": "DRAKE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80516": {
-      "cities": [
-        "ERIE"
-      ],
+      "preferred": "ERIE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80517": {
-      "cities": [
-        "ESTES PARK"
-      ],
+      "preferred": "ESTES PARK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80520": {
-      "cities": [
-        "FIRESTONE"
-      ],
+      "preferred": "FIRESTONE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80521": {
-      "cities": [
-        "FORT COLLINS"
-      ],
+      "preferred": "FORT COLLINS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80522": {
-      "cities": [
-        "FORT COLLINS"
-      ],
+      "preferred": "FORT COLLINS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80524": {
-      "cities": [
-        "FORT COLLINS"
-      ],
+      "preferred": "FORT COLLINS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80525": {
-      "cities": [
-        "FORT COLLINS"
-      ],
+      "preferred": "FORT COLLINS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80526": {
-      "cities": [
-        "FORT COLLINS"
-      ],
+      "preferred": "FORT COLLINS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80527": {
-      "cities": [
-        "FORT COLLINS"
-      ],
+      "preferred": "FORT COLLINS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80528": {
-      "cities": [
-        "FORT COLLINS"
-      ],
+      "preferred": "FORT COLLINS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80530": {
-      "cities": [
-        "FREDERICK"
-      ],
+      "preferred": "FREDERICK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80532": {
-      "cities": [
-        "GLEN HAVEN"
-      ],
+      "preferred": "GLEN HAVEN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80533": {
-      "cities": [
-        "HYGIENE"
-      ],
+      "preferred": "HYGIENE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80534": {
-      "cities": [
-        "JOHNSTOWN"
-      ],
+      "preferred": "JOHNSTOWN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80535": {
-      "cities": [
-        "LAPORTE"
-      ],
+      "preferred": "LAPORTE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80536": {
-      "cities": [
-        "LIVERMORE"
-      ],
+      "preferred": "LIVERMORE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80537": {
-      "cities": [
-        "LOVELAND"
-      ],
+      "preferred": "LOVELAND",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80538": {
-      "cities": [
-        "LOVELAND"
-      ],
+      "preferred": "LOVELAND",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80539": {
-      "cities": [
-        "LOVELAND"
-      ],
+      "preferred": "LOVELAND",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80540": {
-      "cities": [
-        "LYONS"
-      ],
+      "preferred": "LYONS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80541": {
-      "cities": [
-        "MASONVILLE"
-      ],
+      "preferred": "MASONVILLE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80542": {
-      "cities": [
-        "MEAD"
-      ],
+      "preferred": "MEAD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80543": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "JOHNSTOWN",
         "MILLIKEN"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80544": {
-      "cities": [
-        "NIWOT"
-      ],
+      "preferred": "NIWOT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80545": {
-      "cities": [
-        "RED FEATHER LAKES"
-      ],
+      "preferred": "RED FEATHER LAKES",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80546": {
-      "cities": [
-        "SEVERANCE"
-      ],
+      "preferred": "SEVERANCE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80547": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "FORT COLLINS",
         "TIMNATH"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80549": {
-      "cities": [
-        "WELLINGTON"
-      ],
+      "preferred": "WELLINGTON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80550": {
-      "cities": [
-        "WINDSOR"
-      ],
+      "preferred": "WINDSOR",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80601": {
-      "cities": [
-        "BRIGHTON"
-      ],
+      "preferred": "BRIGHTON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80602": {
-      "cities": [
-        "BRIGHTON"
-      ],
+      "preferred": "BRIGHTON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80603": {
-      "cities": [
-        "BRIGHTON"
-      ],
+      "preferred": "BRIGHTON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80610": {
-      "cities": [
-        "AULT"
-      ],
+      "preferred": "AULT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80611": {
-      "cities": [
-        "BRIGGSDALE"
-      ],
+      "preferred": "BRIGGSDALE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80612": {
-      "cities": [
-        "CARR"
-      ],
+      "preferred": "CARR",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80614": {
-      "cities": [
-        "EASTLAKE"
-      ],
+      "preferred": "EASTLAKE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80615": {
-      "cities": [
-        "EATON"
-      ],
+      "preferred": "EATON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80620": {
-      "cities": [
-        "EVANS"
-      ],
+      "preferred": "EVANS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80621": {
-      "cities": [
-        "FORT LUPTON"
-      ],
+      "preferred": "FORT LUPTON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80622": {
-      "cities": [
-        "GALETON"
-      ],
+      "preferred": "GALETON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80623": {
-      "cities": [
-        "GILCREST"
-      ],
+      "preferred": "GILCREST",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80624": {
-      "cities": [
-        "GILL"
-      ],
+      "preferred": "GILL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80631": {
-      "cities": [
-        "GREELEY"
-      ],
+      "preferred": "GREELEY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80632": {
-      "cities": [
-        "GREELEY"
-      ],
+      "preferred": "GREELEY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80633": {
-      "cities": [
-        "GREELEY"
-      ],
+      "preferred": "GREELEY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80634": {
-      "cities": [
-        "GREELEY"
-      ],
+      "preferred": "GREELEY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80640": {
-      "cities": [
-        "HENDERSON"
-      ],
+      "preferred": "HENDERSON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80642": {
-      "cities": [
-        "HUDSON"
-      ],
+      "preferred": "HUDSON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80643": {
-      "cities": [
-        "KEENESBURG"
-      ],
+      "preferred": "KEENESBURG",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80644": {
-      "cities": [
-        "KERSEY"
-      ],
+      "preferred": "KERSEY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80645": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "EVANS",
         "LA SALLE"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80646": {
-      "cities": [
-        "LUCERNE"
-      ],
+      "preferred": "LUCERNE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80648": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "NUNN",
         "PIERCE"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80649": {
-      "cities": [
-        "ORCHARD"
-      ],
+      "preferred": "ORCHARD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80650": {
-      "cities": [
-        "PIERCE"
-      ],
+      "preferred": "PIERCE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80651": {
-      "cities": [
-        "PLATTEVILLE"
-      ],
+      "preferred": "PLATTEVILLE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80652": {
-      "cities": [
-        "ROGGEN"
-      ],
+      "preferred": "ROGGEN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80653": {
-      "cities": [
-        "WELDONA"
-      ],
+      "preferred": "WELDONA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80654": {
-      "cities": [
-        "WIGGINS"
-      ],
+      "preferred": "WIGGINS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80701": {
-      "cities": [
-        "FORT MORGAN"
-      ],
+      "preferred": "FORT MORGAN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80705": {
-      "cities": [
-        "FORT MORGAN"
-      ],
+      "preferred": "FORT MORGAN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80720": {
-      "cities": [
-        "AKRON"
-      ],
+      "preferred": "AKRON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80721": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "AMHERST",
         "HOLYOKE"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80722": {
-      "cities": [
-        "ATWOOD"
-      ],
+      "preferred": "ATWOOD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80723": {
-      "cities": [
-        "BRUSH"
-      ],
+      "preferred": "BRUSH",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80726": {
-      "cities": [
-        "CROOK"
-      ],
+      "preferred": "CROOK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80727": {
-      "cities": [
-        "ECKLEY"
-      ],
+      "preferred": "ECKLEY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80728": {
-      "cities": [
-        "FLEMING"
-      ],
+      "preferred": "FLEMING",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80729": {
-      "cities": [
-        "GROVER"
-      ],
+      "preferred": "GROVER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80731": {
-      "cities": [
-        "HAXTUN"
-      ],
+      "preferred": "HAXTUN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80732": {
-      "cities": [
-        "HEREFORD"
-      ],
+      "preferred": "HEREFORD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80733": {
-      "cities": [
-        "HILLROSE"
-      ],
+      "preferred": "HILLROSE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80734": {
-      "cities": [
-        "HOLYOKE"
-      ],
+      "preferred": "HOLYOKE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80735": {
-      "cities": [
-        "IDALIA"
-      ],
+      "preferred": "IDALIA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80736": {
-      "cities": [
-        "ILIFF"
-      ],
+      "preferred": "ILIFF",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80737": {
-      "cities": [
-        "JULESBURG"
-      ],
+      "preferred": "JULESBURG",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80740": {
-      "cities": [
-        "ANTON"
-      ],
+      "preferred": "ANTON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80741": {
-      "cities": [
-        "MERINO"
-      ],
+      "preferred": "MERINO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80742": {
-      "cities": [
-        "NEW RAYMER"
-      ],
+      "preferred": "NEW RAYMER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80743": {
-      "cities": [
-        "OTIS"
-      ],
+      "preferred": "OTIS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80744": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "JULESBURG",
         "OVID"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80745": {
-      "cities": [
-        "PEETZ"
-      ],
+      "preferred": "PEETZ",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80746": {
-      "cities": [
-        "HAXTUN"
-      ],
+      "preferred": "HAXTUN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80747": {
-      "cities": [
-        "PEETZ"
-      ],
+      "preferred": "PEETZ",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80749": {
-      "cities": [
-        "SEDGWICK"
-      ],
+      "preferred": "SEDGWICK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80750": {
-      "cities": [
-        "SNYDER"
-      ],
+      "preferred": "SNYDER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80751": {
-      "cities": [
-        "STERLING"
-      ],
+      "preferred": "STERLING",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80754": {
-      "cities": [
-        "STONEHAM"
-      ],
+      "preferred": "STONEHAM",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80755": {
-      "cities": [
-        "VERNON"
-      ],
+      "preferred": "VERNON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80757": {
-      "cities": [
-        "WOODROW"
-      ],
+      "preferred": "WOODROW",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80758": {
-      "cities": [
-        "WRAY"
-      ],
+      "preferred": "WRAY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80759": {
-      "cities": [
-        "YUMA"
-      ],
+      "preferred": "YUMA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80801": {
-      "cities": [
-        "ANTON"
-      ],
+      "preferred": "ANTON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80802": {
-      "cities": [
-        "ARAPAHOE"
-      ],
+      "preferred": "ARAPAHOE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80804": {
-      "cities": [
-        "ARRIBA"
-      ],
+      "preferred": "ARRIBA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80805": {
-      "cities": [
-        "BETHUNE"
-      ],
+      "preferred": "BETHUNE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80807": {
-      "cities": [
-        "BURLINGTON"
-      ],
+      "preferred": "BURLINGTON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80808": {
-      "cities": [
-        "CALHAN"
+      "preferred": "CALHAN",
+      "recognized": [],
+      "avoid": [
+        "ELLICOTT"
       ],
       "state": "CO"
     },
     "80809": {
-      "cities": [
-        "CASCADE"
-      ],
+      "preferred": "CASCADE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80810": {
-      "cities": [
-        "CHEYENNE WELLS"
-      ],
+      "preferred": "CHEYENNE WELLS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80812": {
-      "cities": [
-        "COPE"
-      ],
+      "preferred": "COPE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80813": {
-      "cities": [
-        "CRIPPLE CREEK"
-      ],
+      "preferred": "CRIPPLE CREEK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80814": {
-      "cities": [
-        "DIVIDE"
-      ],
+      "preferred": "DIVIDE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80815": {
-      "cities": [
-        "FLAGLER"
-      ],
+      "preferred": "FLAGLER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80816": {
-      "cities": [
-        "FLORISSANT"
-      ],
+      "preferred": "FLORISSANT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80817": {
-      "cities": [
-        "FOUNTAIN"
-      ],
+      "preferred": "FOUNTAIN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80818": {
-      "cities": [
-        "GENOA"
-      ],
+      "preferred": "GENOA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80819": {
-      "cities": [
-        "GREEN MOUNTAIN FALLS"
-      ],
+      "preferred": "GREEN MOUNTAIN FALLS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80820": {
-      "cities": [
-        "GUFFEY"
-      ],
+      "preferred": "GUFFEY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80821": {
-      "cities": [
-        "HUGO"
-      ],
+      "preferred": "HUGO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80822": {
-      "cities": [
-        "JOES"
-      ],
+      "preferred": "JOES",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80823": {
-      "cities": [
-        "KARVAL"
-      ],
+      "preferred": "KARVAL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80824": {
-      "cities": [
-        "KIRK"
-      ],
+      "preferred": "KIRK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80825": {
-      "cities": [
-        "KIT CARSON"
-      ],
+      "preferred": "KIT CARSON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80827": {
-      "cities": [
-        "LAKE GEORGE"
-      ],
+      "preferred": "LAKE GEORGE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80828": {
-      "cities": [
-        "LIMON"
-      ],
+      "preferred": "LIMON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80829": {
-      "cities": [
-        "MANITOU SPRINGS"
-      ],
+      "preferred": "MANITOU SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80830": {
-      "cities": [
-        "MATHESON"
-      ],
+      "preferred": "MATHESON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80831": {
-      "cities": [
-        "PEYTON"
+      "preferred": "PEYTON",
+      "recognized": [
+        "FALCON"
       ],
+      "avoid": [],
       "state": "CO"
     },
     "80832": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "RAMAH",
         "SIMLA"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80833": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "RUSH",
         "YODER"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80834": {
-      "cities": [
-        "SEIBERT"
-      ],
+      "preferred": "SEIBERT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80835": {
-      "cities": [
-        "SIMLA"
-      ],
+      "preferred": "SIMLA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80836": {
-      "cities": [
-        "STRATTON"
-      ],
+      "preferred": "STRATTON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80840": {
-      "cities": [
-        "USAF ACADEMY"
-      ],
+      "preferred": "USAF ACADEMY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80841": {
-      "cities": [
-        "USAF ACADEMY"
-      ],
+      "preferred": "USAF ACADEMY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80860": {
-      "cities": [
-        "VICTOR"
-      ],
+      "preferred": "VICTOR",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80861": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "STRATTON",
         "VONA"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80862": {
-      "cities": [
-        "WILD HORSE"
-      ],
+      "preferred": "WILD HORSE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80863": {
-      "cities": [
-        "WOODLAND PARK"
-      ],
+      "preferred": "WOODLAND PARK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80864": {
-      "cities": [
-        "YODER"
+      "preferred": "YODER",
+      "recognized": [],
+      "avoid": [
+        "EDISON",
+        "TRUCKTON"
       ],
       "state": "CO"
     },
     "80866": {
-      "cities": [
-        "WOODLAND PARK"
-      ],
+      "preferred": "WOODLAND PARK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80901": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80902": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80903": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80904": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80905": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80906": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80907": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80908": {
-      "cities": [
-        "COLORADO SPRINGS"
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [
+        "COLO SPGS",
+        "COLORADO SPGS"
+      ],
+      "avoid": [
+        "BLACK FOREST",
+        "CO SPGS"
       ],
       "state": "CO"
     },
     "80909": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80910": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80911": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80914": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80915": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80916": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80917": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80918": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80919": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80920": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80921": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80922": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80923": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80924": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80925": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80926": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80927": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80928": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80929": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80930": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80931": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80932": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80933": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80934": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80935": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80936": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80937": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80938": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80939": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80949": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80951": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80960": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80962": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "80970": {
-      "cities": [
-        "COLORADO SPRINGS"
-      ],
+      "preferred": "COLORADO SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81001": {
-      "cities": [
-        "PUEBLO"
+      "preferred": "PUEBLO",
+      "recognized": [
+        "PUEBLO DEP AC",
+        "PUEBLO DEPOT ACTIVITY"
+      ],
+      "avoid": [
+        "BELLE PLAIN",
+        "DEVINE",
+        "PUEBLO ARMY DEPOT"
       ],
       "state": "CO"
     },
     "81002": {
-      "cities": [
-        "PUEBLO"
-      ],
+      "preferred": "PUEBLO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81003": {
-      "cities": [
-        "PUEBLO"
-      ],
+      "preferred": "PUEBLO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81004": {
-      "cities": [
-        "PUEBLO"
-      ],
+      "preferred": "PUEBLO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81005": {
-      "cities": [
-        "PUEBLO"
-      ],
+      "preferred": "PUEBLO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81006": {
-      "cities": [
-        "PUEBLO"
-      ],
+      "preferred": "PUEBLO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81007": {
-      "cities": [
-        "PUEBLO"
+      "preferred": "PUEBLO",
+      "recognized": [
+        "PUEBLO WEST"
       ],
+      "avoid": [],
       "state": "CO"
     },
     "81008": {
-      "cities": [
-        "PUEBLO"
+      "preferred": "PUEBLO",
+      "recognized": [],
+      "avoid": [
+        "PINON"
       ],
       "state": "CO"
     },
     "81019": {
-      "cities": [
-        "COLORADO CITY"
-      ],
+      "preferred": "COLORADO CITY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81020": {
-      "cities": [
-        "AGUILAR"
-      ],
+      "preferred": "AGUILAR",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81021": {
-      "cities": [
-        "HASWELL"
-      ],
+      "preferred": "HASWELL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81022": {
-      "cities": [
-        "AVONDALE"
-      ],
+      "preferred": "AVONDALE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81023": {
-      "cities": [
-        "BEULAH"
-      ],
+      "preferred": "BEULAH",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81024": {
-      "cities": [
-        "TRINIDAD"
-      ],
+      "preferred": "TRINIDAD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81025": {
-      "cities": [
-        "BOONE"
-      ],
+      "preferred": "BOONE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81027": {
-      "cities": [
-        "BRANSON"
-      ],
+      "preferred": "BRANSON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81029": {
-      "cities": [
-        "CAMPO"
-      ],
+      "preferred": "CAMPO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81030": {
-      "cities": [
-        "CHERAW"
-      ],
+      "preferred": "CHERAW",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81033": {
-      "cities": [
-        "CROWLEY"
-      ],
+      "preferred": "CROWLEY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81036": {
-      "cities": [
-        "EADS"
-      ],
+      "preferred": "EADS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81039": {
-      "cities": [
-        "FOWLER"
-      ],
+      "preferred": "FOWLER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81040": {
-      "cities": [
-        "GARDNER"
-      ],
+      "preferred": "GARDNER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81041": {
-      "cities": [
-        "GRANADA"
-      ],
+      "preferred": "GRANADA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81043": {
-      "cities": [
-        "HARTMAN"
-      ],
+      "preferred": "HARTMAN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81044": {
-      "cities": [
-        "HASTY"
-      ],
+      "preferred": "HASTY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81045": {
-      "cities": [
-        "HASWELL"
-      ],
+      "preferred": "HASWELL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81046": {
-      "cities": [
-        "HOEHNE"
-      ],
+      "preferred": "HOEHNE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81047": {
-      "cities": [
-        "HOLLY"
-      ],
+      "preferred": "HOLLY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81049": {
-      "cities": [
-        "KIM"
-      ],
+      "preferred": "KIM",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81050": {
-      "cities": [
-        "LA JUNTA"
-      ],
+      "preferred": "LA JUNTA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81052": {
-      "cities": [
-        "LAMAR"
-      ],
+      "preferred": "LAMAR",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81054": {
-      "cities": [
-        "LAS ANIMAS"
-      ],
+      "preferred": "LAS ANIMAS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81055": {
-      "cities": [
-        "LA VETA"
-      ],
+      "preferred": "LA VETA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81057": {
-      "cities": [
-        "MC CLAVE"
-      ],
+      "preferred": "MC CLAVE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81058": {
-      "cities": [
-        "MANZANOLA"
-      ],
+      "preferred": "MANZANOLA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81059": {
-      "cities": [
-        "TRINIDAD"
-      ],
+      "preferred": "TRINIDAD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81062": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "FOWLER",
         "OLNEY SPRINGS"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81063": {
-      "cities": [
-        "ORDWAY"
-      ],
+      "preferred": "ORDWAY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81064": {
-      "cities": [
-        "PRITCHETT"
-      ],
+      "preferred": "PRITCHETT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81067": {
-      "cities": [
-        "ROCKY FORD"
-      ],
+      "preferred": "ROCKY FORD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81069": {
-      "cities": [
-        "RYE"
-      ],
+      "preferred": "RYE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81071": {
-      "cities": [
-        "SHERIDAN LAKE"
-      ],
+      "preferred": "SHERIDAN LAKE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81073": {
-      "cities": [
-        "SPRINGFIELD"
-      ],
+      "preferred": "SPRINGFIELD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81076": {
-      "cities": [
-        "SUGAR CITY"
-      ],
+      "preferred": "SUGAR CITY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81077": {
-      "cities": [
-        "SWINK"
-      ],
+      "preferred": "SWINK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81081": {
-      "cities": [
-        "TRINIDAD"
-      ],
+      "preferred": "TRINIDAD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81082": {
-      "cities": [
-        "TRINIDAD"
-      ],
+      "preferred": "TRINIDAD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81084": {
-      "cities": [
-        "TWO BUTTES"
-      ],
+      "preferred": "TWO BUTTES",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81087": {
-      "cities": [
-        "VILAS"
-      ],
+      "preferred": "VILAS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81089": {
-      "cities": [
-        "WALSENBURG"
-      ],
+      "preferred": "WALSENBURG",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81090": {
-      "cities": [
-        "WALSH"
-      ],
+      "preferred": "WALSH",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81091": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "TRINIDAD",
         "WESTON"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81092": {
-      "cities": [
-        "WILEY"
-      ],
+      "preferred": "WILEY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81101": {
-      "cities": [
-        "ALAMOSA"
-      ],
+      "preferred": "ALAMOSA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81120": {
-      "cities": [
-        "ANTONITO"
-      ],
+      "preferred": "ANTONITO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81121": {
-      "cities": [
-        "ARBOLES"
-      ],
+      "preferred": "ARBOLES",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81122": {
-      "cities": [
-        "BAYFIELD"
-      ],
+      "preferred": "BAYFIELD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81123": {
-      "cities": [
-        "BLANCA"
-      ],
+      "preferred": "BLANCA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81124": {
-      "cities": [
-        "CAPULIN"
-      ],
+      "preferred": "CAPULIN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81125": {
-      "cities": [
-        "CENTER"
-      ],
+      "preferred": "CENTER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81128": {
-      "cities": [
-        "PAGOSA SPRINGS"
-      ],
+      "preferred": "PAGOSA SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81129": {
-      "cities": [
-        "CONEJOS"
-      ],
+      "preferred": "CONEJOS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81130": {
-      "cities": [
-        "CREEDE"
-      ],
+      "preferred": "CREEDE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81131": {
-      "cities": [
-        "CRESTONE"
-      ],
+      "preferred": "CRESTONE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81132": {
-      "cities": [
-        "DEL NORTE"
-      ],
+      "preferred": "DEL NORTE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81133": {
-      "cities": [
-        "FORT GARLAND"
-      ],
+      "preferred": "FORT GARLAND",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81135": {
-      "cities": [
-        "MONTE VISTA"
-      ],
+      "preferred": "MONTE VISTA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81136": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "CENTER",
         "HOOPER"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81137": {
-      "cities": [
-        "IGNACIO"
-      ],
+      "preferred": "IGNACIO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81138": {
-      "cities": [
-        "JAROSO"
-      ],
+      "preferred": "JAROSO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81140": {
-      "cities": [
-        "LA JARA"
-      ],
+      "preferred": "LA JARA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81141": {
-      "cities": [
-        "MANASSA"
-      ],
+      "preferred": "MANASSA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81143": {
-      "cities": [
-        "MOFFAT"
-      ],
+      "preferred": "MOFFAT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81144": {
-      "cities": [
-        "MONTE VISTA"
-      ],
+      "preferred": "MONTE VISTA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81146": {
-      "cities": [
-        "MOSCA"
-      ],
+      "preferred": "MOSCA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81147": {
-      "cities": [
-        "PAGOSA SPRINGS"
-      ],
+      "preferred": "PAGOSA SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81148": {
-      "cities": [
-        "ROMEO"
-      ],
+      "preferred": "ROMEO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81149": {
-      "cities": [
-        "SAGUACHE"
-      ],
+      "preferred": "SAGUACHE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81151": {
-      "cities": [
-        "SANFORD"
-      ],
+      "preferred": "SANFORD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81152": {
-      "cities": [
-        "SAN LUIS"
-      ],
+      "preferred": "SAN LUIS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81154": {
-      "cities": [
-        "SOUTH FORK"
-      ],
+      "preferred": "SOUTH FORK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81155": {
-      "cities": [
-        "VILLA GROVE"
-      ],
+      "preferred": "VILLA GROVE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81157": {
-      "cities": [
-        "PAGOSA SPRINGS"
-      ],
+      "preferred": "PAGOSA SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81201": {
-      "cities": [
-        "SALIDA"
-      ],
+      "preferred": "SALIDA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81210": {
-      "cities": [
-        "ALMONT"
-      ],
+      "preferred": "ALMONT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81211": {
-      "cities": [
-        "BUENA VISTA"
-      ],
+      "preferred": "BUENA VISTA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81212": {
-      "cities": [
-        "CANON CITY"
+      "preferred": "CANON CITY",
+      "recognized": [
+        "BROOKSIDE"
+      ],
+      "avoid": [
+        "BUCKSKIN JOE",
+        "ILSE",
+        "PARKDALE",
+        "PENITENTIARY",
+        "PROSPECT HEIGHTS"
       ],
       "state": "CO"
     },
     "81215": {
-      "cities": [
-        "CANON CITY"
-      ],
+      "preferred": "CANON CITY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81220": {
-      "cities": [
-        "CIMARRON"
-      ],
+      "preferred": "CIMARRON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81221": {
-      "cities": [
-        "COAL CREEK"
-      ],
+      "preferred": "COAL CREEK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81222": {
-      "cities": [
-        "COALDALE"
-      ],
+      "preferred": "COALDALE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81223": {
-      "cities": [
-        "COTOPAXI"
-      ],
+      "preferred": "COTOPAXI",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81224": {
-      "cities": [
-        "CRESTED BUTTE"
-      ],
+      "preferred": "CRESTED BUTTE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81225": {
-      "cities": [
-        "CRESTED BUTTE"
-      ],
+      "preferred": "CRESTED BUTTE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81226": {
-      "cities": [
-        "FLORENCE"
+      "preferred": "FLORENCE",
+      "recognized": [],
+      "avoid": [
+        "BREWSTER",
+        "PORTLAND",
+        "WILLIAMSBURG"
       ],
       "state": "CO"
     },
     "81228": {
-      "cities": [
-        "BUENA VISTA"
-      ],
+      "preferred": "BUENA VISTA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81230": {
-      "cities": [
-        "GUNNISON"
-      ],
+      "preferred": "GUNNISON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81233": {
-      "cities": [
-        "HOWARD"
-      ],
+      "preferred": "HOWARD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81235": {
-      "cities": [
-        "LAKE CITY"
-      ],
+      "preferred": "LAKE CITY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81236": {
-      "cities": [
-        "NATHROP"
-      ],
+      "preferred": "NATHROP",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81237": {
-      "cities": [
-        "PARLIN"
-      ],
+      "preferred": "PARLIN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81239": {
-      "cities": [
-        "PARLIN"
-      ],
+      "preferred": "PARLIN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81240": {
-      "cities": [
-        "PENROSE"
-      ],
+      "preferred": "PENROSE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81241": {
-      "cities": [
-        "PITKIN"
-      ],
+      "preferred": "PITKIN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81242": {
-      "cities": [
-        "SALIDA"
-      ],
+      "preferred": "SALIDA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81243": {
-      "cities": [
-        "GUNNISON"
-      ],
+      "preferred": "GUNNISON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81244": {
-      "cities": [
-        "ROCKVALE"
-      ],
+      "preferred": "ROCKVALE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81248": {
-      "cities": [
-        "SARGENTS"
-      ],
+      "preferred": "SARGENTS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81251": {
-      "cities": [
-        "BUENA VISTA"
-      ],
+      "preferred": "BUENA VISTA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81252": {
-      "cities": [
-        "WESTCLIFFE"
-      ],
+      "preferred": "WESTCLIFFE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81253": {
-      "cities": [
-        "WETMORE"
-      ],
+      "preferred": "WETMORE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81301": {
-      "cities": [
-        "DURANGO"
-      ],
+      "preferred": "DURANGO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81302": {
-      "cities": [
-        "DURANGO"
-      ],
+      "preferred": "DURANGO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81303": {
-      "cities": [
-        "DURANGO"
-      ],
+      "preferred": "DURANGO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81320": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "CAHONE",
         "DOVE CREEK"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81321": {
-      "cities": [
-        "CORTEZ"
-      ],
+      "preferred": "CORTEZ",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81323": {
-      "cities": [
-        "DOLORES"
-      ],
+      "preferred": "DOLORES",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81324": {
-      "cities": [
-        "DOVE CREEK"
-      ],
+      "preferred": "DOVE CREEK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81325": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "DOVE CREEK",
         "EGNAR"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81326": {
-      "cities": [
-        "HESPERUS"
-      ],
+      "preferred": "HESPERUS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81327": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "DOVE CREEK",
         "LEWIS"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81328": {
-      "cities": [
-        "MANCOS"
-      ],
+      "preferred": "MANCOS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81329": {
-      "cities": [
-        "MARVEL"
-      ],
+      "preferred": "MARVEL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81330": {
-      "cities": [
-        "MESA VERDE NATIONAL PARK"
-      ],
+      "preferred": "MESA VERDE NATIONAL PARK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81331": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "DOVE CREEK",
         "PLEASANT VIEW"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81332": {
-      "cities": [
-        "RICO"
-      ],
+      "preferred": "RICO",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81334": {
-      "cities": [
-        "TOWAOC"
-      ],
+      "preferred": "TOWAOC",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81335": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "DOVE CREEK",
         "YELLOW JACKET"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81401": {
-      "cities": [
-        "MONTROSE"
-      ],
+      "preferred": "MONTROSE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81402": {
-      "cities": [
-        "MONTROSE"
-      ],
+      "preferred": "MONTROSE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81403": {
-      "cities": [
-        "MONTROSE"
-      ],
+      "preferred": "MONTROSE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81410": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "AUSTIN",
         "ECKERT"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81411": {
-      "cities": [
-        "BEDROCK"
-      ],
+      "preferred": "BEDROCK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81413": {
-      "cities": [
-        "CEDAREDGE"
-      ],
+      "preferred": "CEDAREDGE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81415": {
-      "cities": [
-        "CRAWFORD"
-      ],
+      "preferred": "CRAWFORD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81416": {
-      "cities": [
-        "DELTA"
-      ],
+      "preferred": "DELTA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81418": {
-      "cities": [
-        "ECKERT"
-      ],
+      "preferred": "ECKERT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81419": {
-      "cities": [
-        "HOTCHKISS"
-      ],
+      "preferred": "HOTCHKISS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81420": {
-      "cities": [
-        "HOTCHKISS"
-      ],
+      "preferred": "HOTCHKISS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81422": {
-      "cities": [
-        "NATURITA"
-      ],
+      "preferred": "NATURITA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81423": {
-      "cities": [
-        "NORWOOD"
-      ],
+      "preferred": "NORWOOD",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81424": {
-      "cities": [
-        "NUCLA"
-      ],
+      "preferred": "NUCLA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81425": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "MONTROSE",
         "OLATHE"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81426": {
-      "cities": [
-        "OPHIR"
-      ],
+      "preferred": "OPHIR",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81427": {
-      "cities": [
-        "OURAY"
-      ],
+      "preferred": "OURAY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81428": {
-      "cities": [
-        "PAONIA"
-      ],
+      "preferred": "PAONIA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81429": {
-      "cities": [
-        "PARADOX"
-      ],
+      "preferred": "PARADOX",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81430": {
-      "cities": [
-        "PLACERVILLE"
-      ],
+      "preferred": "PLACERVILLE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81431": {
-      "cities": [
-        "REDVALE"
-      ],
+      "preferred": "REDVALE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81432": {
-      "cities": [
-        "RIDGWAY"
-      ],
+      "preferred": "RIDGWAY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81433": {
-      "cities": [
-        "SILVERTON"
-      ],
+      "preferred": "SILVERTON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81434": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "PAONIA",
         "SOMERSET"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81435": {
-      "cities": [
-        "TELLURIDE"
-      ],
+      "preferred": "TELLURIDE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81501": {
-      "cities": [
-        "GRAND JUNCTION"
-      ],
+      "preferred": "GRAND JUNCTION",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81502": {
-      "cities": [
-        "GRAND JUNCTION"
-      ],
+      "preferred": "GRAND JUNCTION",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81503": {
-      "cities": [
-        "GRAND JUNCTION"
-      ],
+      "preferred": "GRAND JUNCTION",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81504": {
-      "cities": [
-        "GRAND JUNCTION"
-      ],
+      "preferred": "GRAND JUNCTION",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81505": {
-      "cities": [
-        "GRAND JUNCTION"
-      ],
+      "preferred": "GRAND JUNCTION",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81506": {
-      "cities": [
-        "GRAND JUNCTION"
-      ],
+      "preferred": "GRAND JUNCTION",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81507": {
-      "cities": [
-        "GRAND JUNCTION"
-      ],
+      "preferred": "GRAND JUNCTION",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81520": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "CLIFTON",
         "GRAND JUNCTION"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81521": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "FRUITA",
         "GRAND JUNCTION"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81522": {
-      "cities": [
-        "GATEWAY"
-      ],
+      "preferred": "GATEWAY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81523": {
-      "cities": [
-        "GRAND JUNCTION"
-      ],
+      "preferred": "GRAND JUNCTION",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81524": {
-      "cities": [
-        "LOMA"
-      ],
+      "preferred": "LOMA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81525": {
-      "cities": [
-        "MACK"
-      ],
+      "preferred": "MACK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81526": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "GRAND JUNCTION",
         "PALISADE"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81527": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "GRAND JUNCTION",
         "WHITEWATER"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81601": {
-      "cities": [
-        "GLENWOOD SPRINGS"
-      ],
+      "preferred": "GLENWOOD SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81602": {
-      "cities": [
-        "GLENWOOD SPRINGS"
-      ],
+      "preferred": "GLENWOOD SPRINGS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81610": {
-      "cities": [
-        "DINOSAUR"
-      ],
+      "preferred": "DINOSAUR",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81611": {
-      "cities": [
-        "ASPEN"
-      ],
+      "preferred": "ASPEN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81612": {
-      "cities": [
-        "ASPEN"
-      ],
+      "preferred": "ASPEN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81615": {
-      "cities": [
-        "SNOWMASS VILLAGE"
-      ],
+      "preferred": "SNOWMASS VILLAGE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81620": {
-      "cities": [
-        "AVON"
-      ],
+      "preferred": "AVON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81621": {
-      "cities": [
-        "BASALT"
-      ],
+      "preferred": "BASALT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81623": {
-      "cities": [
-        "CARBONDALE"
-      ],
+      "preferred": "CARBONDALE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81624": {
-      "cities": [
-        "COLLBRAN"
-      ],
+      "preferred": "COLLBRAN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81625": {
-      "cities": [
-        "CRAIG"
-      ],
+      "preferred": "CRAIG",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81626": {
-      "cities": [
-        "CRAIG"
-      ],
+      "preferred": "CRAIG",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81630": {
-      "cities": [
-        "DE BEQUE"
-      ],
+      "preferred": "DE BEQUE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81631": {
-      "cities": [
-        "EAGLE"
-      ],
+      "preferred": "EAGLE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81632": {
-      "cities": [
-        "EDWARDS"
-      ],
+      "preferred": "EDWARDS",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81635": {
-      "cities": [
-        "PARACHUTE"
-      ],
+      "preferred": "PARACHUTE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81636": {
-      "cities": [
-        "PARACHUTE"
-      ],
+      "preferred": "PARACHUTE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81637": {
-      "cities": [
-        "GYPSUM"
-      ],
+      "preferred": "GYPSUM",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81638": {
-      "cities": [
-        "HAMILTON"
-      ],
+      "preferred": "HAMILTON",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81639": {
-      "cities": [
-        "HAYDEN"
-      ],
+      "preferred": "HAYDEN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81640": {
-      "cities": [
-        "MAYBELL"
-      ],
+      "preferred": "MAYBELL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81641": {
-      "cities": [
-        "MEEKER"
-      ],
+      "preferred": "MEEKER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81642": {
-      "cities": [
-        "MEREDITH"
-      ],
+      "preferred": "MEREDITH",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81643": {
-      "cities": [
-        "MESA"
-      ],
+      "preferred": "MESA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81645": {
-      "cities": [
-        "MINTURN"
-      ],
+      "preferred": "MINTURN",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81646": {
-      "cities": [
-        "MOLINA"
-      ],
+      "preferred": "MOLINA",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81647": {
-      "cities": [
-        "NEW CASTLE"
-      ],
+      "preferred": "NEW CASTLE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81648": {
-      "cities": [
-        "RANGELY"
-      ],
+      "preferred": "RANGELY",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81649": {
-      "cities": [
-        "RED CLIFF"
-      ],
+      "preferred": "RED CLIFF",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81650": {
-      "cities": [
-        "RIFLE"
-      ],
+      "preferred": "RIFLE",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81652": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "RIFLE",
         "SILT"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81653": {
-      "cities": [
-        "SLATER"
-      ],
+      "preferred": "SLATER",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81654": {
-      "cities": [
+      "preferred": null,
+      "candidates": [
         "BASALT",
         "SNOWMASS"
       ],
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81655": {
-      "cities": [
-        "WOLCOTT"
-      ],
+      "preferred": "WOLCOTT",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81656": {
-      "cities": [
-        "WOODY CREEK"
-      ],
+      "preferred": "WOODY CREEK",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81657": {
-      "cities": [
-        "VAIL"
-      ],
+      "preferred": "VAIL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     },
     "81658": {
-      "cities": [
-        "VAIL"
-      ],
+      "preferred": "VAIL",
+      "recognized": [],
+      "avoid": [],
       "state": "CO"
     }
   }

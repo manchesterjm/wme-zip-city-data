@@ -1,0 +1,17 @@
+{
+  "_comment": "Hand-verified USPS Cities by ZIP data. Adds recognized/avoid lists beyond what ZIP_Locale_Detail.xls can tell us. Merged into co_zip_cities.json by build_co_zip_cities_from_xls.py.",
+  "_source": "USPS web tool at https://tools.usps.com/zip-code-lookup.htm?citybyzipcode&mode=byZip&zip=XXXXX",
+  "_verified_by": "manchesterjm",
+  "overrides": {
+    "80106": { "preferred": "ELBERT",           "recognized": [],                             "avoid": ["BLACK FOREST"],              "state": "CO" },
+    "80808": { "preferred": "CALHAN",           "recognized": [],                             "avoid": ["ELLICOTT"],                  "state": "CO" },
+    "80831": { "preferred": "PEYTON",           "recognized": ["FALCON"],                     "avoid": [],                            "state": "CO" },
+    "80864": { "preferred": "YODER",            "recognized": [],                             "avoid": ["EDISON", "TRUCKTON"],        "state": "CO" },
+    "80908": { "preferred": "COLORADO SPRINGS", "recognized": ["COLO SPGS", "COLORADO SPGS"], "avoid": ["BLACK FOREST", "CO SPGS"],   "state": "CO" },
+    "81001": { "preferred": "PUEBLO",           "recognized": ["PUEBLO DEP AC", "PUEBLO DEPOT ACTIVITY"], "avoid": ["BELLE PLAIN", "DEVINE", "PUEBLO ARMY DEPOT"], "state": "CO" },
+    "81007": { "preferred": "PUEBLO",           "recognized": ["PUEBLO WEST"],                "avoid": [],                            "state": "CO" },
+    "81008": { "preferred": "PUEBLO",           "recognized": [],                             "avoid": ["PINON"],                     "state": "CO" },
+    "81212": { "preferred": "CANON CITY",       "recognized": ["BROOKSIDE"],                  "avoid": ["BUCKSKIN JOE", "ILSE", "PARKDALE", "PENITENTIARY", "PROSPECT HEIGHTS"], "state": "CO" },
+    "81226": { "preferred": "FLORENCE",         "recognized": [],                             "avoid": ["BREWSTER", "PORTLAND", "WILLIAMSBURG"], "state": "CO" }
+  }
+}
