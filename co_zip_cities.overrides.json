@@ -3,9 +3,11 @@
   "_source": "USPS web tool at https://tools.usps.com/zip-code-lookup.htm?citybyzipcode&mode=byZip&zip=XXXXX",
   "_verified_by": "manchesterjm",
   "overrides": {
+    "80005": { "preferred": "ARVADA",           "recognized": ["WESTMINSTER"],                "avoid": [],                                        "state": "CO" },
     "80012": { "preferred": "AURORA",           "recognized": ["DENVER"],                     "avoid": [],                                        "state": "CO" },
     "80014": { "preferred": "AURORA",           "recognized": ["DENVER"],                     "avoid": [],                                        "state": "CO" },
     "80016": { "preferred": "AURORA",           "recognized": ["CENTENNIAL", "FOXFIELD"],     "avoid": [],                                        "state": "CO" },
+    "80021": { "preferred": "BROOMFIELD",       "recognized": ["WESTMINSTER"],                "avoid": [],                                        "state": "CO" },
     "80033": { "preferred": "WHEAT RIDGE",      "recognized": ["DENVER"],                     "avoid": [],                                        "state": "CO" },
     "80106": { "preferred": "ELBERT",           "recognized": [],                             "avoid": ["BLACK FOREST"],                          "state": "CO" },
     "80108": { "preferred": "CASTLE ROCK",      "recognized": ["CASTLE PINES"],               "avoid": [],                                        "state": "CO" },
@@ -18,6 +20,12 @@
     "80135": { "preferred": "SEDALIA",          "recognized": ["DECKERS"],                    "avoid": [],                                        "state": "CO" },
     "80246": { "preferred": "DENVER",           "recognized": ["GLENDALE"],                   "avoid": [],                                        "state": "CO" },
     "80247": { "preferred": "DENVER",           "recognized": ["AURORA"],                     "avoid": [],                                        "state": "CO" },
+    "80403": { "preferred": "GOLDEN",           "recognized": ["ARVADA"],                     "avoid": ["BLACKHAWK"],                             "state": "CO" },
+    "80422": { "preferred": "BLACK HAWK",       "recognized": [],                             "avoid": ["BLACKHAWK"],                             "state": "CO" },
+    "80424": { "preferred": "BRECKENRIDGE",     "recognized": ["BLUE RIVER"],                 "avoid": [],                                        "state": "CO" },
+    "80432": { "preferred": "COMO",             "recognized": ["FAIRPLAY"],                   "avoid": [],                                        "state": "CO" },
+    "80433": { "preferred": "CONIFER",          "recognized": ["FOXTON"],                     "avoid": ["ASPEN PARK"],                            "state": "CO" },
+    "80439": { "preferred": "EVERGREEN",        "recognized": ["GOLDEN"],                     "avoid": [],                                        "state": "CO" },
     "80808": { "preferred": "CALHAN",           "recognized": [],                             "avoid": ["ELLICOTT"],                              "state": "CO" },
     "80829": { "preferred": "MANITOU SPRINGS",  "recognized": ["MANITOU SPGS"],               "avoid": ["CRYSTAL HILLS"],                         "state": "CO" },
     "80831": { "preferred": "PEYTON",           "recognized": ["FALCON"],                     "avoid": [],                                        "state": "CO" },
@@ -42,6 +50,10 @@
     "81008": { "preferred": "PUEBLO",           "recognized": [],                             "avoid": ["PINON"],                                 "state": "CO" },
     "81063": { "preferred": "ORDWAY",           "recognized": [],                             "avoid": ["NUMA", "PUNKIN CENTER"],                 "state": "CO" },
     "81212": { "preferred": "CANON CITY",       "recognized": ["BROOKSIDE"],                  "avoid": ["BUCKSKIN JOE", "ILSE", "PARKDALE", "PENITENTIARY", "PROSPECT HEIGHTS"], "state": "CO" },
-    "81226": { "preferred": "FLORENCE",         "recognized": [],                             "avoid": ["BREWSTER", "PORTLAND", "WILLIAMSBURG"],  "state": "CO" }
+    "81226": { "preferred": "FLORENCE",         "recognized": [],                             "avoid": ["BREWSTER", "PORTLAND", "WILLIAMSBURG"],  "state": "CO" },
+    "81601": { "preferred": "GLENWOOD SPRINGS", "recognized": ["GLENWOOD SPGS"],              "avoid": ["CARDIFF", "GLENWOOD", "WEST GLENWOOD"],  "state": "CO" },
+    "81621": { "preferred": "BASALT",           "recognized": [],                             "avoid": ["RUEDI"],                                 "state": "CO" },
+    "81623": { "preferred": "CARBONDALE",       "recognized": ["EL JEBEL", "MARBLE", "REDSTONE"], "avoid": ["CRYSTAL"],                             "state": "CO" },
+    "81637": { "preferred": "GYPSUM",           "recognized": [],                             "avoid": ["DOTSERO", "SWEETWATER"],                 "state": "CO" }
   }
 }

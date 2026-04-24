@@ -3,9 +3,9 @@
     "source": "USPS ZIP_Locale_Detail.xls + co_zip_cities.overrides.json",
     "source_xls_last_modified": "2026-04-24T13:22:23+00:00",
     "state": "CO",
-    "generated": "2026-04-24T14:54:01+00:00",
+    "generated": "2026-04-24T15:09:39+00:00",
     "zip_count": 590,
-    "overrides_applied": 40,
+    "overrides_applied": 52,
     "ambiguous_count": 32,
     "schema": 2,
     "schema_note": "preferred=city-to-normalize-to (null=ambiguous). recognized=USPS-valid aliases (leave alone). avoid=USPS-invalid names (fix to preferred)."
@@ -37,7 +37,9 @@
     },
     "80005": {
       "preferred": "ARVADA",
-      "recognized": [],
+      "recognized": [
+        "WESTMINSTER"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -128,7 +130,9 @@
     },
     "80021": {
       "preferred": "BROOMFIELD",
-      "recognized": [],
+      "recognized": [
+        "WESTMINSTER"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -910,8 +914,12 @@
     },
     "80403": {
       "preferred": "GOLDEN",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "ARVADA"
+      ],
+      "avoid": [
+        "BLACKHAWK"
+      ],
       "state": "CO"
     },
     "80420": {
@@ -929,7 +937,9 @@
     "80422": {
       "preferred": "BLACK HAWK",
       "recognized": [],
-      "avoid": [],
+      "avoid": [
+        "BLACKHAWK"
+      ],
       "state": "CO"
     },
     "80423": {
@@ -940,7 +950,9 @@
     },
     "80424": {
       "preferred": "BRECKENRIDGE",
-      "recognized": [],
+      "recognized": [
+        "BLUE RIVER"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -976,14 +988,20 @@
     },
     "80432": {
       "preferred": "COMO",
-      "recognized": [],
+      "recognized": [
+        "FAIRPLAY"
+      ],
       "avoid": [],
       "state": "CO"
     },
     "80433": {
       "preferred": "CONIFER",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "FOXTON"
+      ],
+      "avoid": [
+        "ASPEN PARK"
+      ],
       "state": "CO"
     },
     "80434": {
@@ -1017,8 +1035,10 @@
       "state": "CO"
     },
     "80439": {
-      "preferred": "GOLDEN",
-      "recognized": [],
+      "preferred": "EVERGREEN",
+      "recognized": [
+        "GOLDEN"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -3609,8 +3629,14 @@
     },
     "81601": {
       "preferred": "GLENWOOD SPRINGS",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "GLENWOOD SPGS"
+      ],
+      "avoid": [
+        "CARDIFF",
+        "GLENWOOD",
+        "WEST GLENWOOD"
+      ],
       "state": "CO"
     },
     "81602": {
@@ -3652,13 +3678,21 @@
     "81621": {
       "preferred": "BASALT",
       "recognized": [],
-      "avoid": [],
+      "avoid": [
+        "RUEDI"
+      ],
       "state": "CO"
     },
     "81623": {
       "preferred": "CARBONDALE",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "EL JEBEL",
+        "MARBLE",
+        "REDSTONE"
+      ],
+      "avoid": [
+        "CRYSTAL"
+      ],
       "state": "CO"
     },
     "81624": {
@@ -3712,7 +3746,10 @@
     "81637": {
       "preferred": "GYPSUM",
       "recognized": [],
-      "avoid": [],
+      "avoid": [
+        "DOTSERO",
+        "SWEETWATER"
+      ],
       "state": "CO"
     },
     "81638": {
