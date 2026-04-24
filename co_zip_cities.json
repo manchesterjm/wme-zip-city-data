@@ -3,9 +3,9 @@
     "source": "USPS ZIP_Locale_Detail.xls + co_zip_cities.overrides.json",
     "source_xls_last_modified": "2026-04-24T13:22:23+00:00",
     "state": "CO",
-    "generated": "2026-04-24T19:04:30+00:00",
+    "generated": "2026-04-24T19:07:58+00:00",
     "zip_count": 590,
-    "overrides_applied": 65,
+    "overrides_applied": 81,
     "ambiguous_count": 31,
     "schema": 2,
     "schema_note": "preferred=city-to-normalize-to (null=ambiguous). recognized=USPS-valid aliases (leave alone). avoid=USPS-invalid names (fix to preferred)."
@@ -138,13 +138,20 @@
     },
     "80022": {
       "preferred": "COMMERCE CITY",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "DENVER"
+      ],
+      "avoid": [
+        "IRONDALE"
+      ],
       "state": "CO"
     },
     "80023": {
       "preferred": "BROOMFIELD",
-      "recognized": [],
+      "recognized": [
+        "THORNTON",
+        "WESTMINSTER"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -729,9 +736,14 @@
       "state": "CO"
     },
     "80233": {
-      "preferred": "NORTHGLENN",
-      "recognized": [],
-      "avoid": [],
+      "preferred": "DENVER",
+      "recognized": [
+        "NORTHGLENN",
+        "THORNTON"
+      ],
+      "avoid": [
+        "NORTH GLENN"
+      ],
       "state": "CO"
     },
     "80234": {
@@ -771,9 +783,15 @@
       "state": "CO"
     },
     "80241": {
-      "preferred": "NORTHGLENN",
-      "recognized": [],
-      "avoid": [],
+      "preferred": "THORNTON",
+      "recognized": [
+        "DENVER",
+        "NORTHGLENN",
+        "WESTMINSTER"
+      ],
+      "avoid": [
+        "EAST LAKE"
+      ],
       "state": "CO"
     },
     "80246": {
@@ -1308,13 +1326,20 @@
     },
     "80503": {
       "preferred": "LONGMONT",
-      "recognized": [],
+      "recognized": [
+        "NIWOT"
+      ],
       "avoid": [],
       "state": "CO"
     },
     "80504": {
       "preferred": "LONGMONT",
-      "recognized": [],
+      "recognized": [
+        "FIRESTONE",
+        "FREDERICK",
+        "MEAD",
+        "NIWOT"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -1356,7 +1381,9 @@
     },
     "80516": {
       "preferred": "ERIE",
-      "recognized": [],
+      "recognized": [
+        "FREDERICK"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -1386,8 +1413,12 @@
     },
     "80524": {
       "preferred": "FORT COLLINS",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "SEVERANCE"
+      ],
+      "avoid": [
+        "FT COLLINS"
+      ],
       "state": "CO"
     },
     "80525": {
@@ -1410,7 +1441,9 @@
     },
     "80528": {
       "preferred": "FORT COLLINS",
-      "recognized": [],
+      "recognized": [
+        "WINDSOR"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -1434,7 +1467,9 @@
     },
     "80534": {
       "preferred": "JOHNSTOWN",
-      "recognized": [],
+      "recognized": [
+        "LOVELAND"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -1532,7 +1567,9 @@
     },
     "80550": {
       "preferred": "WINDSOR",
-      "recognized": [],
+      "recognized": [
+        "SEVERANCE"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -1544,7 +1581,9 @@
     },
     "80602": {
       "preferred": "BRIGHTON",
-      "recognized": [],
+      "recognized": [
+        "THORNTON"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -1640,7 +1679,10 @@
     },
     "80640": {
       "preferred": "HENDERSON",
-      "recognized": [],
+      "recognized": [
+        "BRIGHTON",
+        "COMMERCE CITY"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -2794,7 +2836,12 @@
     "81069": {
       "preferred": "RYE",
       "recognized": [],
-      "avoid": [],
+      "avoid": [
+        "CEDARWOOD",
+        "GREENWOOD",
+        "LASCAR",
+        "SAN ISABEL"
+      ],
       "state": "CO"
     },
     "81071": {
@@ -2829,8 +2876,18 @@
     },
     "81082": {
       "preferred": "TRINIDAD",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "COKEDALE",
+        "JANSEN",
+        "SOPRIS",
+        "STARKVILLE"
+      ],
+      "avoid": [
+        "BESHOAR JCT",
+        "EL MORO",
+        "LUDLOW",
+        "PINON CANYON"
+      ],
       "state": "CO"
     },
     "81084": {
@@ -2847,8 +2904,15 @@
     },
     "81089": {
       "preferred": "WALSENBURG",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "FARISTA"
+      ],
+      "avoid": [
+        "FARISITA",
+        "MUTUAL",
+        "PRYOR",
+        "TOLTEC"
+      ],
       "state": "CO"
     },
     "81090": {
