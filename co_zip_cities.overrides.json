@@ -12,6 +12,7 @@
     "81006": { "preferred": "PUEBLO",           "recognized": [],                             "avoid": ["BAXTER", "BLENDE", "VINELAND"], "state": "CO" },
     "81007": { "preferred": "PUEBLO",           "recognized": ["PUEBLO WEST"],                "avoid": [],                            "state": "CO" },
     "81008": { "preferred": "PUEBLO",           "recognized": [],                             "avoid": ["PINON"],                     "state": "CO" },
+    "81063": { "preferred": "ORDWAY",           "recognized": [],                             "avoid": ["NUMA", "PUNKIN CENTER"],     "state": "CO" },
     "81212": { "preferred": "CANON CITY",       "recognized": ["BROOKSIDE"],                  "avoid": ["BUCKSKIN JOE", "ILSE", "PARKDALE", "PENITENTIARY", "PROSPECT HEIGHTS"], "state": "CO" },
     "81226": { "preferred": "FLORENCE",         "recognized": [],                             "avoid": ["BREWSTER", "PORTLAND", "WILLIAMSBURG"], "state": "CO" }
   }
