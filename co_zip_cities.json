@@ -3,9 +3,9 @@
     "source": "USPS ZIP_Locale_Detail.xls + co_zip_cities.overrides.json",
     "source_xls_last_modified": "2026-04-24T13:22:23+00:00",
     "state": "CO",
-    "generated": "2026-04-24T14:44:04+00:00",
+    "generated": "2026-04-24T14:54:01+00:00",
     "zip_count": 590,
-    "overrides_applied": 16,
+    "overrides_applied": 40,
     "ambiguous_count": 32,
     "schema": 2,
     "schema_note": "preferred=city-to-normalize-to (null=ambiguous). recognized=USPS-valid aliases (leave alone). avoid=USPS-invalid names (fix to preferred)."
@@ -67,7 +67,9 @@
     },
     "80012": {
       "preferred": "AURORA",
-      "recognized": [],
+      "recognized": [
+        "DENVER"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -79,7 +81,9 @@
     },
     "80014": {
       "preferred": "AURORA",
-      "recognized": [],
+      "recognized": [
+        "DENVER"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -90,8 +94,11 @@
       "state": "CO"
     },
     "80016": {
-      "preferred": "CENTENNIAL",
-      "recognized": [],
+      "preferred": "AURORA",
+      "recognized": [
+        "CENTENNIAL",
+        "FOXFIELD"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -175,7 +182,9 @@
     },
     "80033": {
       "preferred": "WHEAT RIDGE",
-      "recognized": [],
+      "recognized": [
+        "DENVER"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -301,7 +310,9 @@
     },
     "80108": {
       "preferred": "CASTLE ROCK",
-      "recognized": [],
+      "recognized": [
+        "CASTLE PINES"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -324,9 +335,15 @@
       "state": "CO"
     },
     "80112": {
-      "preferred": "GREENWOOD VILLAGE",
-      "recognized": [],
-      "avoid": [],
+      "preferred": "ENGLEWOOD",
+      "recognized": [
+        "CENTENNIAL",
+        "GREENWOOD VILLAGE",
+        "GREENWOOD VLG"
+      ],
+      "avoid": [
+        "LONE TREE"
+      ],
       "state": "CO"
     },
     "80113": {
@@ -378,9 +395,13 @@
       "state": "CO"
     },
     "80124": {
-      "preferred": "HIGHLANDS RANCH",
-      "recognized": [],
-      "avoid": [],
+      "preferred": "LONE TREE",
+      "recognized": [
+        "LITTLETON"
+      ],
+      "avoid": [
+        "LONETREE"
+      ],
       "state": "CO"
     },
     "80125": {
@@ -390,8 +411,11 @@
       "state": "CO"
     },
     "80126": {
-      "preferred": "HIGHLANDS RANCH",
-      "recognized": [],
+      "preferred": "LITTLETON",
+      "recognized": [
+        "HGHLNDS RANCH",
+        "HIGHLANDS RANCH"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -414,8 +438,11 @@
       "state": "CO"
     },
     "80130": {
-      "preferred": "HIGHLANDS RANCH",
-      "recognized": [],
+      "preferred": "LITTLETON",
+      "recognized": [
+        "HGHLNDS RANCH",
+        "HIGHLANDS RANCH"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -428,7 +455,9 @@
     "80132": {
       "preferred": "MONUMENT",
       "recognized": [],
-      "avoid": [],
+      "avoid": [
+        "WOODMOOR"
+      ],
       "state": "CO"
     },
     "80133": {
@@ -443,13 +472,17 @@
     },
     "80134": {
       "preferred": "PARKER",
-      "recognized": [],
+      "recognized": [
+        "LONE TREE"
+      ],
       "avoid": [],
       "state": "CO"
     },
     "80135": {
       "preferred": "SEDALIA",
-      "recognized": [],
+      "recognized": [
+        "DECKERS"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -741,13 +774,17 @@
     },
     "80246": {
       "preferred": "DENVER",
-      "recognized": [],
+      "recognized": [
+        "GLENDALE"
+      ],
       "avoid": [],
       "state": "CO"
     },
     "80247": {
       "preferred": "DENVER",
-      "recognized": [],
+      "recognized": [
+        "AURORA"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -2021,8 +2058,12 @@
     },
     "80829": {
       "preferred": "MANITOU SPRINGS",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "MANITOU SPGS"
+      ],
+      "avoid": [
+        "CRYSTAL HILLS"
+      ],
       "state": "CO"
     },
     "80830": {
@@ -2079,7 +2120,10 @@
     },
     "80840": {
       "preferred": "USAF ACADEMY",
-      "recognized": [],
+      "recognized": [
+        "UNITED STATES AIR FORCE ACAD",
+        "US AIR FORCE"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -2159,14 +2203,24 @@
     },
     "80904": {
       "preferred": "COLORADO SPRINGS",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "COLO SPGS",
+        "COLORADO SPGS"
+      ],
+      "avoid": [
+        "CO SPGS"
+      ],
       "state": "CO"
     },
     "80905": {
       "preferred": "COLORADO SPRINGS",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "COLO SPGS",
+        "COLORADO SPGS"
+      ],
+      "avoid": [
+        "CO SPGS"
+      ],
       "state": "CO"
     },
     "80906": {
@@ -2244,8 +2298,13 @@
     },
     "80916": {
       "preferred": "COLORADO SPRINGS",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "COLO SPGS",
+        "COLORADO SPGS"
+      ],
+      "avoid": [
+        "CO SPGS"
+      ],
       "state": "CO"
     },
     "80917": {
@@ -2262,8 +2321,14 @@
     },
     "80919": {
       "preferred": "COLORADO SPRINGS",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "COLO SPGS",
+        "COLORADO SPGS"
+      ],
+      "avoid": [
+        "CO SPGS",
+        "ROCKRIMMON"
+      ],
       "state": "CO"
     },
     "80920": {
@@ -2274,8 +2339,13 @@
     },
     "80921": {
       "preferred": "COLORADO SPRINGS",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "COLO SPGS",
+        "COLORADO SPGS"
+      ],
+      "avoid": [
+        "CO SPGS"
+      ],
       "state": "CO"
     },
     "80922": {
@@ -2298,8 +2368,14 @@
     },
     "80925": {
       "preferred": "COLORADO SPRINGS",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "COLO SPGS",
+        "COLORADO SPGS"
+      ],
+      "avoid": [
+        "CO SPGS",
+        "SECURITY"
+      ],
       "state": "CO"
     },
     "80926": {
@@ -2321,14 +2397,26 @@
     },
     "80928": {
       "preferred": "COLORADO SPRINGS",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "COLO SPGS",
+        "COLORADO SPGS"
+      ],
+      "avoid": [
+        "CO SPGS",
+        "SECURITY"
+      ],
       "state": "CO"
     },
     "80929": {
       "preferred": "COLORADO SPRINGS",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "COLO SPGS",
+        "COLORADO SPGS"
+      ],
+      "avoid": [
+        "CO SPGS",
+        "SECURITY"
+      ],
       "state": "CO"
     },
     "80930": {
