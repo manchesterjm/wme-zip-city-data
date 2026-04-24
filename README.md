@@ -8,9 +8,12 @@ Built to help WME editors correct RPP (Residential Place Point) cities to match 
 
 | File | Purpose |
 | --- | --- |
-| `co_zip_cities.json` | The data. 589 Colorado ZIPs mapped to their USPS-recognized city name(s). |
-| `build_co_zip_cities_from_xls.py` | Builder that regenerates the JSON from the USPS source XLS. |
-| `ZIP_Locale_Detail.xls` | USPS Post Office Locale Detail file (authoritative source). |
+| `co_zip_cities.json` | 589 Colorado ZIPs mapped to their USPS-recognized city name(s). |
+| `co_zcta.min.geojson` | 526 Colorado ZCTA polygons, simplified for runtime point-in-polygon. Lets a script derive the ZIP for any lat/lon in CO. |
+| `build_co_zip_cities_from_xls.py` | Regenerates `co_zip_cities.json` from the USPS XLS. |
+| `build_co_zcta.py` | Regenerates `co_zcta.min.geojson` from the Colorado Open Data source. |
+| `ZIP_Locale_Detail.xls` | USPS Post Office Locale Detail file (source for city data). |
+| `Colorado_ZIP_Code_Tabulation_Areas_(ZCTA).geojson` | Full-resolution ZCTA source (~25 MB). |
 
 ## Data format
 
@@ -35,45 +38,52 @@ Built to help WME editors correct RPP (Residential Place Point) cities to match 
 
 ## Auto-fixer logic
 
-For each RPP:
+WME venues don't carry a ZIP attribute, so we derive it from the RPP's location:
 
-1. Read RPP's ZIP from its address.
-2. Look up the ZIP in `zips`. If not present, leave the RPP alone.
-3. If RPP city (case-insensitive) matches any entry in `cities` → leave alone.
-4. If `cities` has exactly one entry and RPP doesn't match → set city to that entry.
-5. If `cities` has multiple entries and RPP doesn't match any → flag for manual review; don't auto-fix.
+1. Take the RPP's geometry centroid (lat/lon).
+2. Run point-in-polygon against `co_zcta.min.geojson` to get the 5-digit ZIP.
+3. Look up that ZIP in `co_zip_cities.json`.
+4. If RPP city (case-insensitive) matches any entry in `cities` → leave alone.
+5. If `cities` has exactly one entry and RPP doesn't match → set city to that entry.
+6. If `cities` has multiple entries and RPP doesn't match any → flag for manual review.
 
 ## Consuming from a userscript
 
-Fetch once, cache locally:
+Fetch both files once on first run, cache in GM storage. Both files update at most monthly, so a 7-day cache is fine.
 
 ```js
-GM_xmlhttpRequest({
-  method: 'GET',
-  url: 'https://raw.githubusercontent.com/manchesterjm/wme-zip-city-data/main/co_zip_cities.json',
-  onload: (res) => {
-    const data = JSON.parse(res.responseText);
-    GM_setValue('zipCityData', data);
-    GM_setValue('zipCityDataFetchedAt', Date.now());
-  }
-});
+const DATA_URL = 'https://raw.githubusercontent.com/manchesterjm/wme-zip-city-data/main/co_zip_cities.json';
+const ZCTA_URL = 'https://raw.githubusercontent.com/manchesterjm/wme-zip-city-data/main/co_zcta.min.geojson';
 ```
 
-The file is small (~57 KB) and the USPS source only updates monthly, so caching a week is fine.
+`co_zip_cities.json` is ~57 KB; `co_zcta.min.geojson` is ~1.75 MB.
+
+For point-in-polygon, [Turf.js](https://turfjs.org/) is a drop-in:
+
+```js
+const pt = turf.point([lon, lat]);
+for (const feature of zcta.features) {
+  const bbox = turf.bbox(feature);
+  if (lon < bbox[0] || lon > bbox[2] || lat < bbox[1] || lat > bbox[3]) continue;
+  if (turf.booleanPointInPolygon(pt, feature)) {
+    return feature.properties.zip;
+  }
+}
+```
 
 ## Regenerating the data
 
-The USPS source file (`ZIP_Locale_Detail.xls`) updates monthly. To refresh:
+Both sources update at most monthly:
 
-1. Download the latest `ZIP_Locale_Detail.xls` from USPS.
-2. Replace the local copy.
-3. Run:
+```powershell
+# City data from USPS
+D:\Python313\python.exe build_co_zip_cities_from_xls.py
 
-   ```powershell
-   D:\Python313\python.exe build_co_zip_cities_from_xls.py
-   ```
+# ZCTA polygons from Colorado Open Data
+D:\Python313\python.exe build_co_zcta.py
+```
 
-Dependencies: `pandas`, `xlrd` (for the `.xls` format).
+Dependencies: `pandas` + `xlrd` (for `build_co_zip_cities_from_xls.py`), `shapely` (for `build_co_zcta.py`).
 
 ## Why not just scrape `tools.usps.com`?
 
