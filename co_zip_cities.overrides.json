@@ -49,11 +49,24 @@
     "81007": { "preferred": "PUEBLO",           "recognized": ["PUEBLO WEST"],                "avoid": [],                                        "state": "CO" },
     "81008": { "preferred": "PUEBLO",           "recognized": [],                             "avoid": ["PINON"],                                 "state": "CO" },
     "81063": { "preferred": "ORDWAY",           "recognized": [],                             "avoid": ["NUMA", "PUNKIN CENTER"],                 "state": "CO" },
+    "81143": { "preferred": "MOFFAT",           "recognized": [],                             "avoid": ["MIRAGE"],                                "state": "CO" },
+    "81201": { "preferred": "SALIDA",           "recognized": ["PONCHA SPGS", "PONCHA SPRINGS"], "avoid": ["CLEORA", "MAYSVILLE", "SMELTERTOWN", "SWISSVALE", "TURRET", "WELLSVILLE"], "state": "CO" },
+    "81210": { "preferred": "ALMONT",           "recognized": [],                             "avoid": ["JACKS CABIN", "RAINBOW", "SPRING CREEK", "TAYLOR PARK", "TINCUP"], "state": "CO" },
     "81212": { "preferred": "CANON CITY",       "recognized": ["BROOKSIDE"],                  "avoid": ["BUCKSKIN JOE", "ILSE", "PARKDALE", "PENITENTIARY", "PROSPECT HEIGHTS"], "state": "CO" },
+    "81223": { "preferred": "COTOPAXI",         "recognized": [],                             "avoid": ["TEXAS CREEK"],                           "state": "CO" },
     "81226": { "preferred": "FLORENCE",         "recognized": [],                             "avoid": ["BREWSTER", "PORTLAND", "WILLIAMSBURG"],  "state": "CO" },
+    "81230": { "preferred": "GUNNISON",         "recognized": [],                             "avoid": ["BALDWIN", "DOYLEVILLE", "IOLA", "TAYLOR PARK"], "state": "CO" },
+    "81242": { "preferred": "PONCHA SPRINGS",   "recognized": ["PONCHA SPGS"],                "avoid": [],                                        "state": "CO" },
+    "81248": { "preferred": "SARGENTS",         "recognized": [],                             "avoid": ["WHITE PINE"],                            "state": "CO" },
+    "81413": { "preferred": "CEDAREDGE",        "recognized": [],                             "avoid": ["COALBY", "GRAND MESA"],                  "state": "CO" },
+    "81428": { "preferred": "PAONIA",           "recognized": [],                             "avoid": ["BOWIE"],                                 "state": "CO" },
+    "81434": { "preferred": "SOMERSET",         "recognized": [],                             "avoid": ["BEAR MINE"],                             "state": "CO" },
     "81601": { "preferred": "GLENWOOD SPRINGS", "recognized": ["GLENWOOD SPGS"],              "avoid": ["CARDIFF", "GLENWOOD", "WEST GLENWOOD"],  "state": "CO" },
     "81621": { "preferred": "BASALT",           "recognized": [],                             "avoid": ["RUEDI"],                                 "state": "CO" },
     "81623": { "preferred": "CARBONDALE",       "recognized": ["EL JEBEL", "MARBLE", "REDSTONE"], "avoid": ["CRYSTAL"],                             "state": "CO" },
-    "81637": { "preferred": "GYPSUM",           "recognized": [],                             "avoid": ["DOTSERO", "SWEETWATER"],                 "state": "CO" }
+    "81624": { "preferred": "COLLBRAN",         "recognized": [],                             "avoid": ["PLATEAU CITY"],                          "state": "CO" },
+    "81635": { "preferred": "PARACHUTE",        "recognized": ["BATTLEMENT MESA", "BTLMT MESA"], "avoid": ["GRAND VALLEY", "RULISON"],             "state": "CO" },
+    "81637": { "preferred": "GYPSUM",           "recognized": [],                             "avoid": ["DOTSERO", "SWEETWATER"],                 "state": "CO" },
+    "81650": { "preferred": "RIFLE",            "recognized": [],                             "avoid": ["ANTLERS", "RIO BLANCO", "RULISON"],      "state": "CO" }
   }
 }
