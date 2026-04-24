@@ -86,6 +86,7 @@
     "81624": { "preferred": "COLLBRAN",         "recognized": [],                             "avoid": ["PLATEAU CITY"],                          "state": "CO" },
     "81635": { "preferred": "PARACHUTE",        "recognized": ["BATTLEMENT MESA", "BTLMT MESA"], "avoid": ["GRAND VALLEY", "RULISON"],             "state": "CO" },
     "81637": { "preferred": "GYPSUM",           "recognized": [],                             "avoid": ["DOTSERO", "SWEETWATER"],                 "state": "CO" },
-    "81650": { "preferred": "RIFLE",            "recognized": [],                             "avoid": ["ANTLERS", "RIO BLANCO", "RULISON"],      "state": "CO" }
+    "81650": { "preferred": "RIFLE",            "recognized": [],                             "avoid": ["ANTLERS", "RIO BLANCO", "RULISON"],      "state": "CO" },
+    "81657": { "preferred": "VAIL",             "recognized": [],                             "avoid": ["EAST VAIL", "WEST VAIL"],                "state": "CO" }
   }
 }
