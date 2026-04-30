@@ -25,8 +25,8 @@ from shapely.geometry import shape, mapping
 
 INPUT = Path(__file__).parent / "Colorado_ZIP_Code_Tabulation_Areas_(ZCTA).geojson"
 OUTPUT = Path(__file__).parent / "co_zcta.min.geojson"
-SIMPLIFY_TOLERANCE_DEG = 0.0005   # ~56 m at Colorado's latitude
-COORD_PRECISION = 4
+SIMPLIFY_TOLERANCE_DEG = 0.00005  # ~5.6 m at Colorado's latitude
+COORD_PRECISION = 6
 
 
 def round_coords(coords, precision=COORD_PRECISION):
