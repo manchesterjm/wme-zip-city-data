@@ -27,6 +27,7 @@ INPUT = Path(__file__).parent / "Colorado_ZIP_Code_Tabulation_Areas_(ZCTA).geojs
 OUTPUT = Path(__file__).parent / "co_zcta.min.geojson"
 SIMPLIFY_TOLERANCE_DEG = 0.00005  # ~5.6 m at Colorado's latitude
 COORD_PRECISION = 6
+SCHEMA_VERSION = 1
 
 
 def round_coords(coords, precision=COORD_PRECISION):
@@ -68,7 +69,20 @@ def main() -> int:
             },
         })
 
-    out = {"type": "FeatureCollection", "features": out_features}
+    from datetime import datetime, timezone
+    out = {
+        "type": "FeatureCollection",
+        "metadata": {
+            "schema": SCHEMA_VERSION,
+            "source": INPUT.name,
+            "state": "CO",
+            "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "feature_count": len(out_features),
+            "simplify_tolerance_deg": SIMPLIFY_TOLERANCE_DEG,
+            "coord_precision": COORD_PRECISION,
+        },
+        "features": out_features,
+    }
     with OUTPUT.open("w", encoding="utf-8") as f:
         json.dump(out, f, separators=(",", ":"))
 

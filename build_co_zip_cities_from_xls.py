@@ -52,7 +52,7 @@ SOURCE = HERE / "ZIP_Locale_Detail.xls"
 OVERRIDES_SRC = HERE / "co_zip_cities.overrides.json"
 OUTPUT = HERE / "co_zip_cities.json"
 TARGET_STATE = "CO"
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 
 def load_overrides() -> dict:
