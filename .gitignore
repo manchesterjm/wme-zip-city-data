@@ -2,3 +2,10 @@
 *.pyc
 __pycache__/
 co_zip_cities.json.tmp
+
+# Local Claude pointer (machine-specific paths — keep out of the public repo)
+CLAUDE.md
+
+# Local rebuild backups (not for the repo)
+*.previous.json
+*.previous.geojson
