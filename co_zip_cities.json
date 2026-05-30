@@ -3,9 +3,9 @@
     "source": "USPS ZIP_Locale_Detail.xls + co_zip_cities.overrides.json",
     "source_xls_last_modified": "2026-04-24T13:22:23+00:00",
     "state": "CO",
-    "generated": "2026-05-30T12:00:07+00:00",
+    "generated": "2026-05-30T12:52:37+00:00",
     "zip_count": 590,
-    "overrides_applied": 87,
+    "overrides_applied": 95,
     "ambiguous_count": 31,
     "schema": 4,
     "schema_note": "preferred=city-to-normalize-to (null=ambiguous). recognized=USPS-valid aliases (leave alone). avoid=USPS-invalid names (fix to preferred)."
@@ -25,7 +25,9 @@
     },
     "80003": {
       "preferred": "ARVADA",
-      "recognized": [],
+      "recognized": [
+        "WESTMINSTER"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -63,8 +65,14 @@
     },
     "80011": {
       "preferred": "AURORA",
-      "recognized": [],
-      "avoid": [],
+      "recognized": [
+        "BUCKLEY AFB",
+        "BUCKLEY AIR FORCE BASE"
+      ],
+      "avoid": [
+        "BUCKLEY AIR NATL GUARD BASE",
+        "BUCKLEY ANG"
+      ],
       "state": "CO"
     },
     "80012": {
@@ -90,8 +98,10 @@
       "state": "CO"
     },
     "80015": {
-      "preferred": "CENTENNIAL",
-      "recognized": [],
+      "preferred": "AURORA",
+      "recognized": [
+        "CENTENNIAL"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -124,7 +134,9 @@
     },
     "80020": {
       "preferred": "BROOMFIELD",
-      "recognized": [],
+      "recognized": [
+        "WESTMINSTER"
+      ],
       "avoid": [],
       "state": "CO"
     },
@@ -156,26 +168,32 @@
       "state": "CO"
     },
     "80024": {
-      "preferred": "COMMERCE CITY",
+      "preferred": "DUPONT",
       "recognized": [],
       "avoid": [],
       "state": "CO"
     },
     "80025": {
       "preferred": "ELDORADO SPRINGS",
-      "recognized": [],
+      "recognized": [
+        "ELDORADO SPRG"
+      ],
       "avoid": [],
       "state": "CO"
     },
     "80026": {
       "preferred": "LAFAYETTE",
-      "recognized": [],
+      "recognized": [
+        "ERIE"
+      ],
       "avoid": [],
       "state": "CO"
     },
     "80027": {
-      "preferred": "SUPERIOR",
-      "recognized": [],
+      "preferred": "LOUISVILLE",
+      "recognized": [
+        "SUPERIOR"
+      ],
       "avoid": [],
       "state": "CO"
     },
