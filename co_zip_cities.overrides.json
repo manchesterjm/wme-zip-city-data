@@ -13,6 +13,7 @@
     "80033": { "preferred": "WHEAT RIDGE",      "recognized": ["DENVER"],                     "avoid": [],                                        "state": "CO" },
     "80106": { "preferred": "ELBERT",           "recognized": [],                             "avoid": ["BLACK FOREST"],                          "state": "CO" },
     "80108": { "preferred": "CASTLE ROCK",      "recognized": ["CASTLE PINES"],               "avoid": [],                                        "state": "CO" },
+    "80111": { "preferred": "ENGLEWOOD",        "recognized": ["CENTENNIAL", "CHERRY HILLS", "CHERRY HILLS VILLAGE", "CHERRY HL VLG", "GREENWOOD VILLAGE", "GREENWOOD VLG"], "avoid": [], "state": "CO" },
     "80112": { "preferred": "ENGLEWOOD",        "recognized": ["CENTENNIAL", "GREENWOOD VILLAGE", "GREENWOOD VLG"], "avoid": ["LONE TREE"],        "state": "CO" },
     "80124": { "preferred": "LONE TREE",        "recognized": ["LITTLETON"],                  "avoid": ["LONETREE"],                              "state": "CO" },
     "80126": { "preferred": "LITTLETON",        "recognized": ["HGHLNDS RANCH", "HIGHLANDS RANCH"], "avoid": [],                                   "state": "CO" },
