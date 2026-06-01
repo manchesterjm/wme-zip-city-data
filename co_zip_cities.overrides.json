@@ -83,6 +83,7 @@
     "80829": { "preferred": "MANITOU SPRINGS", "recognized": ["MANITOU SPGS"], "avoid": ["CRYSTAL HILLS"], "state": "CO" },
     "80831": { "preferred": "PEYTON", "recognized": ["FALCON"], "avoid": [], "state": "CO" },
     "80840": { "preferred": "USAF ACADEMY", "recognized": ["UNITED STATES AIR FORCE ACAD", "US AIR FORCE"], "avoid": [], "state": "CO" },
+    "80863": { "preferred": "WOODLAND PARK", "recognized": [], "avoid": ["CRYSTOLA", "WESTWOOD LAKE"], "state": "CO" },
     "80864": { "preferred": "YODER", "recognized": [], "avoid": ["EDISON", "TRUCKTON"], "state": "CO" },
     "80902": { "preferred": "COLORADO SPRINGS", "recognized": ["COLO SPGS", "COLORADO SPGS", "FORT CARSON", "FT CARSON"], "avoid": ["CO SPGS"], "state": "CO" },
     "80904": { "preferred": "COLORADO SPRINGS", "recognized": ["COLO SPGS", "COLORADO SPGS"], "avoid": ["CO SPGS"], "state": "CO" },
