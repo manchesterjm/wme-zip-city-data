@@ -119,6 +119,7 @@
     "81242": { "preferred": "PONCHA SPRINGS", "recognized": ["PONCHA SPGS"], "avoid": [], "state": "CO" },
     "81248": { "preferred": "SARGENTS", "recognized": [], "avoid": ["WHITE PINE"], "state": "CO" },
     "81413": { "preferred": "CEDAREDGE", "recognized": [], "avoid": ["COALBY", "GRAND MESA"], "state": "CO" },
+    "81419": { "preferred": "HOTCHKISS", "recognized": [], "avoid": ["ROGERS MESA"], "state": "CO" },
     "81428": { "preferred": "PAONIA", "recognized": [], "avoid": ["BOWIE"], "state": "CO" },
     "81434": { "preferred": "SOMERSET", "recognized": [], "avoid": ["BEAR MINE"], "state": "CO" },
     "81601": { "preferred": "GLENWOOD SPRINGS", "recognized": ["GLENWOOD SPGS"], "avoid": ["CARDIFF", "GLENWOOD", "WEST GLENWOOD"], "state": "CO" },
