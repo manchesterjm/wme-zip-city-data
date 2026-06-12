@@ -3,9 +3,9 @@
     "source": "USPS ZIP_Locale_Detail.xls + co_zip_cities.overrides.json",
     "source_xls_last_modified": "2026-04-24T13:22:23+00:00",
     "state": "CO",
-    "generated": "2026-06-01T22:21:14+00:00",
+    "generated": "2026-06-12T13:13:19+00:00",
     "zip_count": 590,
-    "overrides_applied": 127,
+    "overrides_applied": 128,
     "ambiguous_count": 31,
     "schema": 4,
     "schema_note": "preferred=city-to-normalize-to (null=ambiguous). recognized=USPS-valid aliases (leave alone). avoid=USPS-invalid names (fix to preferred)."
@@ -1217,7 +1217,9 @@
     "80446": {
       "preferred": "GRANBY",
       "recognized": [],
-      "avoid": [],
+      "avoid": [
+        "SILVERCREEK"
+      ],
       "state": "CO"
     },
     "80447": {
