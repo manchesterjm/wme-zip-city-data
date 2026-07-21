@@ -3,10 +3,10 @@
     "source": "USPS ZIP_Locale_Detail.xls + co_zip_cities.overrides.json",
     "source_xls_last_modified": "2026-04-24T13:22:23+00:00",
     "state": "CO",
-    "generated": "2026-06-12T13:13:19+00:00",
+    "generated": "2026-07-21T22:44:42+00:00",
     "zip_count": 590,
-    "overrides_applied": 128,
-    "ambiguous_count": 31,
+    "overrides_applied": 132,
+    "ambiguous_count": 27,
     "schema": 4,
     "schema_note": "preferred=city-to-normalize-to (null=ambiguous). recognized=USPS-valid aliases (leave alone). avoid=USPS-invalid names (fix to preferred)."
   },
@@ -3823,23 +3823,17 @@
       "state": "CO"
     },
     "81520": {
-      "preferred": null,
-      "candidates": [
-        "CLIFTON",
-        "GRAND JUNCTION"
-      ],
+      "preferred": "CLIFTON",
       "recognized": [],
       "avoid": [],
       "state": "CO"
     },
     "81521": {
-      "preferred": null,
-      "candidates": [
-        "FRUITA",
-        "GRAND JUNCTION"
-      ],
+      "preferred": "FRUITA",
       "recognized": [],
-      "avoid": [],
+      "avoid": [
+        "COLORADO NATIONAL MONUMENT"
+      ],
       "state": "CO"
     },
     "81522": {
@@ -3867,21 +3861,15 @@
       "state": "CO"
     },
     "81526": {
-      "preferred": null,
-      "candidates": [
-        "GRAND JUNCTION",
-        "PALISADE"
-      ],
+      "preferred": "PALISADE",
       "recognized": [],
-      "avoid": [],
+      "avoid": [
+        "EAST ORCHARD MESA"
+      ],
       "state": "CO"
     },
     "81527": {
-      "preferred": null,
-      "candidates": [
-        "GRAND JUNCTION",
-        "WHITEWATER"
-      ],
+      "preferred": "WHITEWATER",
       "recognized": [],
       "avoid": [],
       "state": "CO"
