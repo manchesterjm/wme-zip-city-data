@@ -6,14 +6,14 @@ Built to help WME editors correct RPP (Residential Place Point) cities to match 
 
 ## What's here
 
-| File | Purpose |
-| --- | --- |
-| `co_zip_cities.json` | 589 Colorado ZIPs mapped to their USPS-recognized city name(s). |
-| `co_zcta.min.geojson` | 526 Colorado ZCTA polygons, simplified for runtime point-in-polygon. Lets a script derive the ZIP for any lat/lon in CO. |
-| `build_co_zip_cities_from_xls.py` | Regenerates `co_zip_cities.json` from the USPS XLS. |
-| `build_co_zcta.py` | Regenerates `co_zcta.min.geojson` from the Colorado Open Data source. |
-| `ZIP_Locale_Detail.xls` | USPS Post Office Locale Detail file (source for city data). |
-| `Colorado_ZIP_Code_Tabulation_Areas_(ZCTA).geojson` | Full-resolution ZCTA source (~25 MB). |
+| File                                                | Purpose                                                                                                                  |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `co_zip_cities.json`                                | 589 Colorado ZIPs mapped to their USPS-recognized city name(s).                                                          |
+| `co_zcta.min.geojson`                               | 526 Colorado ZCTA polygons, simplified for runtime point-in-polygon. Lets a script derive the ZIP for any lat/lon in CO. |
+| `build_co_zip_cities_from_xls.py`                   | Regenerates `co_zip_cities.json` from the USPS XLS.                                                                      |
+| `build_co_zcta.py`                                  | Regenerates `co_zcta.min.geojson` from the Colorado Open Data source.                                                    |
+| `ZIP_Locale_Detail.xls`                             | USPS Post Office Locale Detail file (source for city data).                                                              |
+| `Colorado_ZIP_Code_Tabulation_Areas_(ZCTA).geojson` | Full-resolution ZCTA source (~25 MB).                                                                                    |
 
 ## Data format
 
